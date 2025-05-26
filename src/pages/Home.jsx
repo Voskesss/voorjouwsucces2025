@@ -12,15 +12,25 @@ function Home() {
       <section className="hero-section">
         <div className="decorative-flower-1 animate-float"></div>
         <div className="decorative-heart"></div>
-        <div className="container">
-          <div className="hero-content">
-            <h2>Welkom bij Praktijkbasis</h2>
-            <p>Een plek van rust en herstel</p>
-            <p className="subtitle">Lichaamsgerichte traumatherapie met een christelijke basis</p>
-            <Link to="/contact" className="cta-button">Maak een afspraak</Link>
+        <div className="container hero-container">
+          <div className="hero-text-wrapper">
+            <h1 className="hero-title">Welkom bij Praktijkbasis</h1>
           </div>
-          <div className="hero-image">
-            <img src={siskaPortret} alt="Siska Greving, lichaamsgericht traumatherapeut" />
+          
+          <div className="hero-portrait-wrapper">
+            <div className="hero-portrait">
+              <img src={siskaPortret} alt="Siska Greving, lichaamsgericht traumatherapeut" />
+            </div>
+          </div>
+          
+          <div className="hero-info-wrapper">
+            <div className="hero-info">
+              <p className="hero-info-text">Een plek van rust en herstel</p>
+              <p className="hero-info-text">Lichaamsgerichte traumatherapie</p>
+            </div>
+            <div className="hero-cta-wrapper">
+              <Link to="/contact" className="cta-button">Maak een afspraak</Link>
+            </div>
           </div>
         </div>
       </section>

@@ -52,7 +52,6 @@ function Header() {
           <Link to="/" onClick={closeNav}>
             <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
           </Link>
-          <h1>Praktijkbasis</h1>
         </div>
         
         <button className="mobile-nav-toggle" onClick={toggleNav} aria-label="Toggle menu">
