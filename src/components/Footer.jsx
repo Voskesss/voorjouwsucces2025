@@ -13,7 +13,8 @@ function Footer() {
           <Link to="/">
             <img src={logoNieuw} alt="Praktijkbasis Logo" className="footer-logo" />
           </Link>
-          <p>Praktijkbasis - Energetische therapie met een spirituele basis</p>
+          <p>Praktijkbasis biedt lichaamsgerichte traumatherapie met een christelijke basis. Een plek waar je in rust en veiligheid kunt werken aan herstel en groei.</p>
+          <p>Vanuit een holistische benadering kijk ik naar lichaam, ziel en geest, met aandacht voor jouw unieke verhaal.</p>
         </div>
         
         <div className="footer-links">
@@ -34,11 +35,13 @@ function Footer() {
           <p>Email: info@praktijkbasis.eu</p>
           <p>Telefoon: 06-12345678</p>
           <p>Adres: Praktijkstraat 1, 9400 AA Assen</p>
+          <p>KvK: 12345678</p>
+          <p>AGB-code: 12345678</p>
         </div>
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Praktijkbasis. Alle rechten voorbehouden.</p>
+        <p>&copy; {currentYear} Praktijkbasis | Lichaamsgerichte traumatherapie met een christelijke basis | Alle rechten voorbehouden</p>
       </div>
     </footer>
   );

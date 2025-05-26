@@ -1,10 +1,40 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../styles/Header.css';
 import logoNieuw from '../assets/images/logo-nieuw.png';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // Effect voor het detecteren van scrollen
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Effect voor het vergrendelen van de body scroll wanneer mobiel menu open is
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isNavOpen]);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
@@ -16,18 +46,23 @@ function Header() {
   };
 
   return (
-    <header className="header">
+    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="logo-container">
           <Link to="/" onClick={closeNav}>
             <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
           </Link>
-          <h1>Praktijkbasis - Energetische Therapie</h1>
+          <h1>Praktijkbasis</h1>
         </div>
         
-        <div className="mobile-nav-toggle" onClick={toggleNav}>
+        <button className="mobile-nav-toggle" onClick={toggleNav} aria-label="Toggle menu">
           <span className={`hamburger ${isNavOpen ? 'open' : ''}`}></span>
-        </div>
+        </button>
+
+        {/* Overlay voor mobiel menu */}
+        {isNavOpen && (
+          <div className={`mobile-nav-overlay ${isNavOpen ? 'open' : ''}`} onClick={closeNav}></div>
+        )}
 
         <nav className={`nav ${isNavOpen ? 'open' : ''}`}>
           <ul className="nav-list">
