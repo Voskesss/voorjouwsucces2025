@@ -14,7 +14,7 @@ function Header() {
       <div className="header-container">
         <div className="logo-container">
           <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
-          <h1>Praktijkbasis</h1>
+          <h1>Praktijkbasis - Energetische Therapie</h1>
         </div>
         
         <div className="mobile-nav-toggle" onClick={toggleNav}>
