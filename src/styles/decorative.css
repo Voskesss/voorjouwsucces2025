@@ -196,6 +196,49 @@
   .decorative-wood-heart,
   .decorative-water,
   .decorative-butterfly {
-    display: none;
+    width: 80px;
+    height: 80px;
+    opacity: 0.06;
+  }
+  
+  .hero-section .decorative-flower-1 {
+    top: -20px;
+    right: 5%;
+  }
+  
+  .hero-section .decorative-heart {
+    bottom: -30px;
+    left: 2%;
+  }
+  
+  .about-section .decorative-flower-2 {
+    top: 10%;
+    right: -20px;
+  }
+  
+  .about-section .decorative-wood-heart {
+    bottom: 10%;
+    left: -15px;
+  }
+  
+  .therapy-section .decorative-butterfly {
+    top: 5%;
+    left: 2%;
+  }
+  
+  .therapy-section .decorative-water {
+    bottom: 10%;
+    right: -20px;
+  }
+  
+  .walks-section .decorative-flower-3 {
+    top: 8%;
+    right: 5%;
+  }
+  
+  .contact-section .decorative-flower-1 {
+    top: 15%;
+    left: -20px;
+    opacity: 0.05;
   }
 }
