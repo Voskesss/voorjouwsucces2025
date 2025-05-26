@@ -1,0 +1,252 @@
+/* Testimonials en waarden styling */
+
+/* Testimonials sectie */
+.testimonials-section {
+  background-color: var(--color-bg-alt);
+  position: relative;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+.testimonials-slider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.testimonial-card {
+  background-color: var(--color-light);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+  padding: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-content p {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  color: var(--color-dark);
+  font-size: 1.1rem;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: right;
+}
+
+.testimonials-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.text-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.text-link i {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.text-link:hover {
+  color: var(--color-accent);
+}
+
+.text-link:hover i {
+  transform: translateX(5px);
+}
+
+/* Waarden sectie */
+.values-section {
+  background-color: var(--color-light);
+  position: relative;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+.values-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.values-text {
+  max-width: 700px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.values-text h2 {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  font-family: var(--font-heading);
+}
+
+.values-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.values-list li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.values-list li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+}
+
+.values-quote {
+  font-style: italic;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-accent);
+}
+
+/* Ervaringen pagina */
+.ervaringen-page {
+  background-color: var(--color-bg);
+}
+
+.page-header {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  padding: 5rem 0 3rem;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-heading);
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.testimonials-full-section {
+  padding: 5rem 0;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.cta-section {
+  background-color: var(--color-bg-alt);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--color-dark);
+}
+
+/* Responsieve stijlen */
+@media (max-width: 992px) {
+  .testimonials-slider {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .values-text {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-section,
+  .values-section,
+  .testimonials-full-section {
+    padding: 3rem 0;
+  }
+  
+  .page-header {
+    padding: 4rem 0 2rem;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .testimonial-content p {
+    font-size: 1rem;
+  }
+  
+  .values-text h2 {
+    font-size: 1.8rem;
+  }
+  
+  .values-quote {
+    font-size: 1.1rem;
+  }
+  
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+}

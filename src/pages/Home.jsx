@@ -88,6 +88,61 @@ function Home() {
         </div>
       </section>
 
+      <section className="testimonials-section">
+        <div className="decorative-flower-3"></div>
+        <div className="container">
+          <div className="section-header">
+            <h2>Ervaringen</h2>
+            <p>Wat anderen zeggen over hun traject bij Praktijk basSIS</p>
+          </div>
+          <div className="testimonials-slider">
+            <div className="testimonial-card">
+              <div className="testimonial-content">
+                <p>"Bij jou voel ik me veilig en voel en weet ik dat het geen zin heeft mijn maskers te dragen, omdat je er toch wel door heen kijkt. Hierdoor ontstaat er een soort van rust, en vertrouwen waardoor ik mijn angst, boosheid en pijn aan durf te kijken."</p>
+                <div className="testimonial-author">- Een cliënt</div>
+              </div>
+            </div>
+            
+            <div className="testimonial-card">
+              <div className="testimonial-content">
+                <p>"Siska is een warme, zachte vrouw, die niet oordeelt, waardoor ik me open durf te stellen."</p>
+                <div className="testimonial-author">- Esther</div>
+              </div>
+            </div>
+            
+            <div className="testimonial-card">
+              <div className="testimonial-content">
+                <p>"Ik heb me nog nooit zo begrepen gevoeld. Dat doet veel. Ik was niet voorbereid op zoveel begrip. Jij durft duidelijk te zijn en daardoor voel ik me gezien."</p>
+                <div className="testimonial-author">- Een cliënt</div>
+              </div>
+            </div>
+          </div>
+          <div className="testimonials-cta">
+            <Link to="/ervaringen" className="text-link">Lees meer ervaringen <i className="fas fa-arrow-right"></i></Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="values-section">
+        <div className="decorative-heart-wood animate-float"></div>
+        <div className="container">
+          <div className="values-content">
+            <div className="values-text">
+              <h2>Wat mij drijft</h2>
+              <p>Bij Praktijk basSIS geloof ik in universele waarden die voor iedereen herkenbaar zijn:</p>
+              <ul className="values-list">
+                <li>Ieder mens is waardevol en mag er helemaal zijn</li>
+                <li>Er is ruimte om fouten te maken, los te laten en te helen</li>
+                <li>Vertrouwen in jezelf, in de ander en in iets groters</li>
+                <li>Niemand staat boven de ander, we zijn gelijkwaardig</li>
+              </ul>
+              <p className="values-quote">Je hoeft het niet alleen te dragen. Er is altijd hoop op herstel.</p>
+              <Link to="/over-mij" className="cta-button">Meer over mijn aanpak</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="contact-section">
         <div className="decorative-flower-1"></div>
         <div className="container">

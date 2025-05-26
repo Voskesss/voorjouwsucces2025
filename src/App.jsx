@@ -13,6 +13,7 @@ import Wandelingen from './pages/Wandelingen'
 import PraktischeInfo from './pages/PraktischeInfo'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
+import Ervaringen from './pages/Ervaringen'
 
 import './App.css'
 
@@ -48,6 +49,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/praktische-info" element={<PraktischeInfo />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/ervaringen" element={<Ervaringen />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

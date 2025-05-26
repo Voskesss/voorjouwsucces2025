@@ -6,6 +6,8 @@ import siskaPortret from '../assets/images/Siska Greving 21-aangepast.jpg';
 function OverMij() {
   return (
     <div className="over-mij-page">
+      <div className="decorative-flower-2 animate-float" style={{top: '150px', right: '8%'}}></div>
+      <div className="decorative-butterfly" style={{bottom: '30%', left: '5%'}}></div>
       <section className="hero-section">
         <div className="container">
           <h1>Over Siska</h1>

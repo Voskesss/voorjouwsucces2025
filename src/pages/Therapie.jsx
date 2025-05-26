@@ -5,6 +5,8 @@ import therapieImg from '../assets/images/mijn-missie-energetisch-aangepast.jpg'
 function Therapie() {
   return (
     <div className="therapie-page">
+      <div className="decorative-water animate-float" style={{top: '180px', right: '5%'}}></div>
+      <div className="decorative-flower-1" style={{bottom: '25%', left: '7%'}}></div>
       <section className="hero-section">
         <div className="container">
           <h1>Lichaamsgerichte Traumatherapie</h1>
