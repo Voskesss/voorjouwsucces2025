@@ -50,7 +50,7 @@ function Header() {
       <div className="header-container">
         <div className="logo-container">
           <Link to="/" onClick={closeNav}>
-            <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
+            <img src={logoNieuw} alt="Praktijk basSIS Logo" className="logo" />
           </Link>
         </div>
         

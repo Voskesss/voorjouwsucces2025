@@ -3,7 +3,7 @@
  */
 
 // Basis website informatie
-export const SITE_NAME = 'Praktijkbasis';
+export const SITE_NAME = 'Praktijk basSIS';
 export const SITE_URL = 'https://praktijkbasis.eu';
 export const SITE_DESCRIPTION = 'Lichaamsgerichte traumatherapie met een christelijke basis. Siska Greving helpt mensen om weer in balans te komen en rust te vinden in een veilige omgeving.';
 export const SITE_KEYWORDS = 'praktijkbasis, lichaamsgerichte traumatherapie, christelijke basis, Siska Greving, balans, rust, herstel, trauma, persoonlijke groei, bewustwording, traumaverwerking, Havelte, Drenthe';

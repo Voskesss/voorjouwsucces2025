@@ -14,7 +14,7 @@ function Home() {
         <div className="decorative-heart"></div>
         <div className="container hero-container">
           <div className="hero-text-wrapper">
-            <h1 className="hero-title">Welkom bij Praktijkbasis</h1>
+            <h1 className="hero-title">Welkom bij Praktijk basSIS</h1>
           </div>
           
           <div className="hero-portrait-wrapper">

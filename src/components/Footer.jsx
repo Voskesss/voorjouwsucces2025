@@ -11,9 +11,9 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-info">
           <Link to="/">
-            <img src={logoNieuw} alt="Praktijkbasis Logo" className="footer-logo" />
+            <img src={logoNieuw} alt="Praktijk basSIS Logo" className="footer-logo" />
           </Link>
-          <p>Praktijkbasis biedt lichaamsgerichte traumatherapie met een christelijke basis. Een plek waar je in rust en veiligheid kunt werken aan herstel en groei.</p>
+          <p>Praktijk basSIS biedt lichaamsgerichte traumatherapie met een christelijke basis. Een plek waar je in rust en veiligheid kunt werken aan herstel en groei.</p>
           <p>Vanuit een holistische benadering kijk ik naar lichaam, ziel en geest, met aandacht voor jouw unieke verhaal.</p>
         </div>
         
@@ -41,7 +41,7 @@ function Footer() {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Praktijkbasis | Lichaamsgerichte traumatherapie met een christelijke basis | Alle rechten voorbehouden</p>
+        <p>&copy; {currentYear} Praktijk basSIS | Lichaamsgerichte traumatherapie met een christelijke basis | Alle rechten voorbehouden</p>
       </div>
     </footer>
   );
