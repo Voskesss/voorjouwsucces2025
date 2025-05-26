@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css';
+import logoNieuw from '../assets/images/logo-nieuw.png';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-info">
-          <img src="/images/logo-nieuw.png" alt="Praktijkbasis Logo" className="footer-logo" />
+          <img src={logoNieuw} alt="Praktijkbasis Logo" className="footer-logo" />
           <p>Praktijkbasis - Energetische therapie met een spirituele basis</p>
         </div>
         

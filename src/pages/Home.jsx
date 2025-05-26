@@ -1,5 +1,9 @@
 import React from 'react';
 import '../styles/Home.css';
+import siskaPortret from '../assets/images/Siska Greving 21-aangepast.jpg';
+import overSiska from '../assets/images/over-siska-energetische-therapie.jpg';
+import mijnMissie from '../assets/images/mijn-missie-energetisch-aangepast.jpg';
+import wandeling from '../assets/images/therapeutische-wandeling.jpg';
 
 function Home() {
   return (
@@ -11,7 +15,7 @@ function Home() {
           <button className="cta-button">Maak een afspraak</button>
         </div>
         <div className="hero-image">
-          <img src="/images/Siska Greving 21-aangepast.jpg" alt="Siska Greving" />
+          <img src={siskaPortret} alt="Siska Greving" />
         </div>
       </section>
 
@@ -19,7 +23,7 @@ function Home() {
         <h2>Over mij</h2>
         <div className="about-content">
           <div className="about-image">
-            <img src="/images/over-siska-energetische-therapie.jpg" alt="Over Siska" />
+            <img src={overSiska} alt="Over Siska" />
           </div>
           <div className="about-text">
             <p>Mijn naam is Siska Greving en ik ben een energetisch therapeut met een spirituele basis. Ik help mensen om weer in balans te komen en hun eigen kracht te vinden.</p>
@@ -36,7 +40,7 @@ function Home() {
             <p>Tijdens een sessie werken we samen aan het herstellen van je energetische balans en het oplossen van blokkades die je tegenhouden in je persoonlijke groei.</p>
           </div>
           <div className="therapy-image">
-            <img src="/images/mijn-missie-energetisch-aangepast.jpg" alt="Energetische Therapie" />
+            <img src={mijnMissie} alt="Energetische Therapie" />
           </div>
         </div>
       </section>
@@ -45,7 +49,7 @@ function Home() {
         <h2>Therapeutische Wandelingen</h2>
         <div className="walks-content">
           <div className="walks-image">
-            <img src="/images/therapeutische-wandeling.jpg" alt="Therapeutische Wandeling" />
+            <img src={wandeling} alt="Therapeutische Wandeling" />
           </div>
           <div className="walks-text">
             <p>Naast therapiesessies in mijn praktijk, bied ik ook therapeutische wandelingen aan in de natuur. Tijdens deze wandelingen combineren we de helende kracht van de natuur met energetische therapie.</p>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../styles/Header.css';
+import logoNieuw from '../assets/images/logo-nieuw.png';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -12,7 +13,7 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
-          <img src="/images/logo-nieuw.png" alt="Praktijkbasis Logo" className="logo" />
+          <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
           <h1>Praktijkbasis</h1>
         </div>
         
