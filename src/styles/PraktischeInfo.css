@@ -1,0 +1,202 @@
+/* Praktische Informatie Pagina Stijlen */
+
+.praktische-info-page section {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.praktische-info-page section:nth-child(odd) {
+  background-color: #f3f8f5;
+}
+
+.praktische-info-page section:nth-child(even) {
+  background-color: white;
+}
+
+.praktische-info-page h1 {
+  font-size: 2.5rem;
+  color: #2c4c3b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.praktische-info-page h2 {
+  font-size: 2rem;
+  color: #2c4c3b;
+  margin-bottom: 1.5rem;
+}
+
+.praktische-info-page h3 {
+  font-size: 1.4rem;
+  color: #4a7c59;
+  margin-bottom: 1rem;
+}
+
+.praktische-info-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.praktische-info-page a {
+  color: #4a7c59;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.praktische-info-page a:hover {
+  color: #2c4c3b;
+  text-decoration: underline;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  color: #4a7c59;
+}
+
+/* Locatie sectie */
+.location-content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.location-info {
+  flex: 1;
+}
+
+.location-map {
+  flex: 1;
+}
+
+.map-placeholder {
+  background-color: #e9f0ec;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4a7c59;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+address {
+  font-style: normal;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Openingstijden sectie */
+.hours-list,
+.appointment-list,
+.preparation-list {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.hours-list li,
+.appointment-list li,
+.preparation-list li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Tarieven sectie */
+.rates-table {
+  margin-bottom: 2rem;
+}
+
+.rate-item {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 0;
+}
+
+.rate-name {
+  flex: 2;
+  font-weight: 500;
+}
+
+.rate-price {
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #4a7c59;
+}
+
+.rate-duration {
+  flex: 1;
+  text-align: right;
+  color: #666;
+}
+
+.reimbursement-info {
+  background-color: #f3f8f5;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.reimbursement-info h3 {
+  margin-top: 0;
+}
+
+.reimbursement-info p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive stijlen */
+@media (max-width: 992px) {
+  .location-content {
+    flex-direction: column;
+  }
+  
+  .location-info,
+  .location-map {
+    flex: none;
+    width: 100%;
+  }
+  
+  .rate-item {
+    flex-direction: column;
+  }
+  
+  .rate-name,
+  .rate-price,
+  .rate-duration {
+    flex: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rate-price {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .praktische-info-page h1 {
+    font-size: 2rem;
+  }
+  
+  .praktische-info-page h2 {
+    font-size: 1.8rem;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+  }
+  
+  .praktische-info-page section {
+    padding: 3rem 0;
+  }
+}

@@ -1,0 +1,6 @@
+# robots.txt voor Praktijkbasis.eu
+User-agent: *
+Allow: /
+
+# Sitemap locatie
+Sitemap: https://praktijkbasis.eu/sitemap.xml

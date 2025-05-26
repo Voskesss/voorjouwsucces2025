@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import '../styles/Header.css';
 import logoNieuw from '../assets/images/logo-nieuw.png';
 
@@ -9,11 +10,18 @@ function Header() {
     setIsNavOpen(!isNavOpen);
   };
 
+  // Helper functie om navigatie te sluiten na klikken op een link
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
-          <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
+          <Link to="/" onClick={closeNav}>
+            <img src={logoNieuw} alt="Praktijkbasis Logo" className="logo" />
+          </Link>
           <h1>Praktijkbasis - Energetische Therapie</h1>
         </div>
         
@@ -23,11 +31,41 @@ function Header() {
 
         <nav className={`nav ${isNavOpen ? 'open' : ''}`}>
           <ul className="nav-list">
-            <li className="nav-item"><a href="#home" onClick={() => setIsNavOpen(false)}>Home</a></li>
-            <li className="nav-item"><a href="#over-mij" onClick={() => setIsNavOpen(false)}>Over mij</a></li>
-            <li className="nav-item"><a href="#therapie" onClick={() => setIsNavOpen(false)}>Therapie</a></li>
-            <li className="nav-item"><a href="#wandelingen" onClick={() => setIsNavOpen(false)}>Wandelingen</a></li>
-            <li className="nav-item"><a href="#contact" onClick={() => setIsNavOpen(false)}>Contact</a></li>
+            <li className="nav-item">
+              <NavLink to="/" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/over-mij" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Over Siska
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/therapie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Traumatherapie
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/wandelingen" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Wandelingen
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/praktische-info" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Praktische Info
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/faq" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                FAQ
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/contact" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Contact
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>

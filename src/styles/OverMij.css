@@ -1,0 +1,207 @@
+/* Over Siska Pagina Stijlen */
+
+.over-mij-page section {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.over-mij-page h1 {
+  font-size: 2.5rem;
+  color: #2c4c3b;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.over-mij-page h2 {
+  font-size: 2rem;
+  color: #2c4c3b;
+  margin-bottom: 1.5rem;
+}
+
+.over-mij-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Hero sectie */
+.over-mij-page .hero-section {
+  background-color: #f3f8f5;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #4a7c59;
+  font-style: italic;
+}
+
+/* Missie sectie */
+.mission-section {
+  background-color: white;
+}
+
+.mission-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.mission-text {
+  flex: 1;
+}
+
+.mission-image {
+  flex: 1;
+}
+
+.mission-image img {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Achtergrond sectie */
+.background-section {
+  background-color: #f3f8f5;
+}
+
+.background-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Waarden sectie */
+.values-section {
+  background-color: white;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.value-card {
+  background-color: #f3f8f5;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.value-card h3 {
+  color: #4a7c59;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.value-card p {
+  margin-bottom: 0;
+}
+
+/* Afsluitende sectie */
+.closing-section {
+  background-color: #f3f8f5;
+}
+
+.closing-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #4a7c59;
+  margin: 2rem 0;
+  position: relative;
+  padding: 0 2rem;
+}
+
+.quote::before,
+.quote::after {
+  content: '"';
+  font-size: 2rem;
+  color: #4a7c59;
+  position: absolute;
+}
+
+.quote::before {
+  left: 0;
+  top: -10px;
+}
+
+.quote::after {
+  right: 0;
+  bottom: -10px;
+}
+
+/* Responsive stijlen */
+@media (max-width: 992px) {
+  .hero-content,
+  .mission-content {
+    flex-direction: column;
+  }
+  
+  .hero-image,
+  .hero-text,
+  .mission-text,
+  .mission-image {
+    flex: none;
+    width: 100%;
+  }
+  
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .over-mij-page h1 {
+    font-size: 2rem;
+  }
+  
+  .over-mij-page h2 {
+    font-size: 1.8rem;
+  }
+  
+  .intro-text,
+  .quote {
+    font-size: 1.1rem;
+  }
+  
+  .over-mij-page section {
+    padding: 3rem 0;
+  }
+}

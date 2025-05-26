@@ -1,0 +1,181 @@
+/* Therapie Pagina Stijlen */
+
+.therapie-page section {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.therapie-page h1 {
+  font-size: 2.5rem;
+  color: #2c4c3b;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.therapie-page h2 {
+  font-size: 2rem;
+  color: #2c4c3b;
+  margin-bottom: 1.5rem;
+}
+
+.therapie-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Hero sectie */
+.therapie-page .hero-section {
+  background-color: #f3f8f5;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #4a7c59;
+  font-style: italic;
+}
+
+/* Wat is sectie */
+.what-is-section {
+  background-color: white;
+}
+
+.what-is-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Aanpak sectie */
+.approach-section {
+  background-color: #f3f8f5;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.approach-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.approach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.approach-card h3 {
+  color: #4a7c59;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.approach-card p {
+  margin-bottom: 0;
+}
+
+/* Sessie sectie */
+.session-section {
+  background-color: white;
+}
+
+.session-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Voordelen sectie */
+.benefits-section {
+  background-color: #f3f8f5;
+}
+
+.benefits-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.benefits-list {
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+}
+
+.benefits-list li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.benefits-list strong {
+  color: #4a7c59;
+}
+
+.closing-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #2c4c3b;
+  margin-top: 2rem;
+}
+
+/* Responsive stijlen */
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  
+  .hero-text,
+  .hero-image {
+    flex: none;
+    width: 100%;
+  }
+  
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .therapie-page h1 {
+    font-size: 2rem;
+  }
+  
+  .therapie-page h2 {
+    font-size: 1.8rem;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+  }
+  
+  .therapie-page section {
+    padding: 3rem 0;
+  }
+}
