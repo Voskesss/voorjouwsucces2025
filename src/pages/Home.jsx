@@ -45,8 +45,8 @@ function Home() {
               <img src={overSiska} alt="Siska Greving, lichaamsgericht traumatherapeut" />
             </div>
             <div className="about-text">
-              <p>Mijn naam is Siska Greving en ik ben een lichaamsgericht traumatherapeut met een christelijke basis. Ik help mensen om weer in balans te komen en rust te vinden in een veilige omgeving.</p>
-              <p>Vanuit een diep gewortelde overtuiging dat ieder mens waardevol en geliefd is, begeleid ik jongeren en volwassenen op hun weg naar herstel en balans.</p>
+              <p>Mijn naam is Siska Greving en ik ben een lichaamsgericht traumatherapeut die werkt vanuit menselijk helende waarden. Ik geloof dat ieder mens waardevol is, dat er ruimte moet zijn voor vergeving en dat we in verbondenheid mogen leven.</p>
+              <p>Vanuit deze waarden begeleid ik jongeren en volwassenen op hun weg naar herstel en balans, zodat ze weer vertrouwen kunnen vinden in zichzelf en de ander.</p>
               <Link to="/over-mij" className="read-more">Lees meer over mij</Link>
             </div>
           </div>
