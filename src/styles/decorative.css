@@ -1,0 +1,201 @@
+/* Decoratieve elementen voor de website */
+
+/* Decoratieve bloemen en natuurelementen */
+.decorative-flower-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/images/decorative/bloem-1.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.decorative-flower-2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-image: url('../assets/images/decorative/roze-bloem.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.12;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.decorative-flower-3 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-image: url('../assets/images/decorative/klaproos.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.decorative-heart {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background-image: url('../assets/images/decorative/moshart-rotated.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.12;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.decorative-wood-heart {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url('../assets/images/decorative/heart-wood-love-wooden-161711.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.decorative-water {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-image: url('../assets/images/decorative/highspeed-photography-water-drop-of-water-alien-dance.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.decorative-butterfly {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/images/decorative/transformatie-pop-vlinder-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0.12;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Posities voor de decoratieve elementen */
+.hero-section .decorative-flower-1 {
+  top: -50px;
+  right: 10%;
+  transform: rotate(15deg);
+}
+
+.hero-section .decorative-heart {
+  bottom: -80px;
+  left: 5%;
+  transform: rotate(-10deg);
+}
+
+.about-section .decorative-flower-2 {
+  top: 20%;
+  right: -50px;
+  transform: rotate(25deg);
+}
+
+.about-section .decorative-wood-heart {
+  bottom: 15%;
+  left: -30px;
+  transform: rotate(-5deg);
+}
+
+.therapy-section .decorative-butterfly {
+  top: 10%;
+  left: 5%;
+  transform: rotate(-15deg);
+}
+
+.therapy-section .decorative-water {
+  bottom: 20%;
+  right: -40px;
+  transform: rotate(10deg);
+}
+
+.walks-section .decorative-flower-3 {
+  top: 15%;
+  right: 8%;
+  transform: rotate(20deg);
+}
+
+.contact-section .decorative-flower-1 {
+  top: 30%;
+  left: -40px;
+  transform: rotate(-20deg);
+  opacity: 0.1;
+}
+
+/* Animaties voor de decoratieve elementen */
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+/* Responsive aanpassingen */
+@media (max-width: 992px) {
+  .decorative-flower-1,
+  .decorative-flower-2,
+  .decorative-flower-3,
+  .decorative-heart,
+  .decorative-wood-heart,
+  .decorative-water,
+  .decorative-butterfly {
+    width: 150px;
+    height: 150px;
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 768px) {
+  .decorative-flower-1,
+  .decorative-flower-2,
+  .decorative-flower-3,
+  .decorative-heart,
+  .decorative-wood-heart,
+  .decorative-water,
+  .decorative-butterfly {
+    width: 120px;
+    height: 120px;
+    opacity: 0.08;
+  }
+}
+
+@media (max-width: 576px) {
+  .decorative-flower-1,
+  .decorative-flower-2,
+  .decorative-flower-3,
+  .decorative-heart,
+  .decorative-wood-heart,
+  .decorative-water,
+  .decorative-butterfly {
+    display: none;
+  }
+}

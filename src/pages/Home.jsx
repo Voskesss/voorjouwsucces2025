@@ -10,6 +10,8 @@ function Home() {
   return (
     <div className="home-page">
       <section className="hero-section">
+        <div className="decorative-flower-1 animate-float"></div>
+        <div className="decorative-heart"></div>
         <div className="container">
           <div className="hero-content">
             <h2>Welkom bij Praktijkbasis</h2>
@@ -24,6 +26,8 @@ function Home() {
       </section>
 
       <section className="about-section">
+        <div className="decorative-flower-2"></div>
+        <div className="decorative-wood-heart animate-float"></div>
         <div className="container">
           <h2>Over Siska</h2>
           <div className="about-content">
@@ -40,6 +44,8 @@ function Home() {
       </section>
 
       <section className="therapy-section">
+        <div className="decorative-butterfly animate-float"></div>
+        <div className="decorative-water"></div>
         <div className="container">
           <h2>Lichaamsgerichte Traumatherapie</h2>
           <div className="therapy-content">
@@ -56,6 +62,7 @@ function Home() {
       </section>
 
       <section className="walks-section">
+        <div className="decorative-flower-3 animate-float"></div>
         <div className="container">
           <h2>Therapeutische Wandelingen</h2>
           <div className="walks-content">
@@ -72,6 +79,7 @@ function Home() {
       </section>
 
       <section className="contact-section">
+        <div className="decorative-flower-1"></div>
         <div className="container">
           <h2>Contact</h2>
           <div className="contact-content">
