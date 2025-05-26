@@ -2,10 +2,14 @@
 
 /* Hero Section */
 .hero-section {
+  background-color: #f3f8f5;
+  width: 100%;
+}
+
+.hero-section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f3f8f5;
   padding: 6rem 2rem;
 }
 
@@ -58,20 +62,20 @@
 /* About Section */
 .about-section {
   background-color: white;
-  text-align: center;
+  width: 100%;
 }
 
 .about-section h2 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .about-content {
   display: flex;
   align-items: center;
   gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .about-image {
@@ -96,20 +100,20 @@
 /* Therapy Section */
 .therapy-section {
   background-color: #f3f8f5;
-  text-align: center;
+  width: 100%;
 }
 
 .therapy-section h2 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .therapy-content {
   display: flex;
   align-items: center;
   gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .therapy-text {
@@ -134,20 +138,20 @@
 /* Walks Section */
 .walks-section {
   background-color: white;
-  text-align: center;
+  width: 100%;
 }
 
 .walks-section h2 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .walks-content {
   display: flex;
   align-items: center;
   gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .walks-image {
@@ -172,19 +176,19 @@
 /* Contact Section */
 .contact-section {
   background-color: #f3f8f5;
-  text-align: center;
+  width: 100%;
 }
 
 .contact-section h2 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .contact-content {
   display: flex;
   gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .contact-info,
@@ -241,7 +245,7 @@
 
 /* Responsive Styles */
 @media (max-width: 992px) {
-  .hero-section,
+  .hero-section .container,
   .about-content,
   .therapy-content,
   .walks-content,
