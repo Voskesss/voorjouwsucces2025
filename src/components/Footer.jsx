@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-info">
-          <img src="/praktijkbasis/images/logo-nieuw.png" alt="Praktijkbasis Logo" className="footer-logo" />
+          <img src="/images/logo-nieuw.png" alt="Praktijkbasis Logo" className="footer-logo" />
           <p>Praktijkbasis - Energetische therapie met een spirituele basis</p>
         </div>
         

@@ -12,7 +12,7 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
-          <img src="/praktijkbasis/images/logo-nieuw.png" alt="Praktijkbasis Logo" className="logo" />
+          <img src="/images/logo-nieuw.png" alt="Praktijkbasis Logo" className="logo" />
           <h1>Praktijkbasis</h1>
         </div>
         
