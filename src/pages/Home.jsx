@@ -1,177 +1,154 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
-import siskaPortret from '../assets/images/Siska Greving 21-aangepast.jpg';
-import overSiska from '../assets/images/over-siska-energetische-therapie.jpg';
-import mijnMissie from '../assets/images/mijn-missie-energetisch-aangepast.jpg';
-import wandeling from '../assets/images/therapeutische-wandeling.jpg';
 
 function Home() {
   return (
     <div className="home-page">
       <section className="hero-section">
-        <div className="decorative-flower-1 animate-float"></div>
-        <div className="decorative-heart"></div>
+        <div className="hero-overlay"></div>
         <div className="container hero-container">
-          <div className="hero-text-wrapper">
-            <h1 className="hero-title">Welkom bij Praktijk basSIS</h1>
-          </div>
-          
-          <div className="hero-portrait-wrapper">
-            <div className="hero-portrait">
-              <img src={siskaPortret} alt="Siska Greving, lichaamsgericht traumatherapeut" />
-            </div>
-          </div>
-          
-          <div className="hero-info-wrapper">
-            <div className="hero-info">
-              <p className="hero-info-text">Een plek van rust en herstel</p>
-              <p className="hero-info-text">Lichaamsgerichte traumatherapie</p>
-            </div>
-            <div className="hero-cta-wrapper">
-              <Link to="/contact" className="cta-button">Maak een afspraak</Link>
+          <div className="hero-content">
+            <h1 className="hero-title">VOOR JOUW<br />SUCCES</h1>
+            <p className="hero-subtitle">Strategie en uitvoering voor maatschappelijke impact</p>
+            <div className="hero-cta-container">
+              <Link to="/diensten" className="hero-cta">Wat wij voor jou doen</Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="about-section">
-        <div className="decorative-flower-2"></div>
-        <div className="decorative-wood-heart animate-float"></div>
+      <section className="services-preview">
         <div className="container">
-          <h2>Over Siska</h2>
+          <h2>Hoe We Jouw Organisatie Helpen</h2>
+          <div className="services-grid">
+            <div className="service-card featured">
+              <div className="service-icon">🤖</div>
+              <h3>AI-Implementatie</h3>
+              <p>Praktische AI-oplossingen die echt werken. Van automatisering tot slimme data-analyse.</p>
+              <Link to="/ai-implementatie" className="service-link">Meer over AI →</Link>
+            </div>
+            <div className="service-card">
+              <div className="service-icon">⚙️</div>
+              <h3>Procesoptimalisatie</h3>
+              <p>20 jaar ervaring in het stroomlijnen van organisaties. Samen maken we jullie werk efficiënter.</p>
+              <Link to="/procesoptimalisatie" className="service-link">Meer over processen →</Link>
+            </div>
+            <div className="service-card">
+              <div className="service-icon">🎯</div>
+              <h3>Strategisch Partnerschap</h3>
+              <p>Geen externe consultant, maar een partner die meedenkt en meewerkt aan jullie ambities.</p>
+              <Link to="/diensten" className="service-link">Alle diensten →</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="about-preview">
+        <div className="container">
           <div className="about-content">
-            <div className="about-image">
-              <img src={overSiska} alt="Siska Greving, lichaamsgericht traumatherapeut" />
-            </div>
             <div className="about-text">
-              <p>Mijn naam is Siska Greving en ik ben een lichaamsgericht traumatherapeut die werkt vanuit menselijk helende waarden. Ik geloof dat ieder mens waardevol is, dat er ruimte moet zijn voor vergeving en dat we in verbondenheid mogen leven.</p>
-              <p>Vanuit deze waarden begeleid ik jongeren en volwassenen op hun weg naar herstel en balans, zodat ze weer vertrouwen kunnen vinden in zichzelf en de ander.</p>
-              <Link to="/over-mij" className="read-more">Lees meer over mij</Link>
+              <h2>Van Ondernemer naar Maatschappelijke Impact</h2>
+              <p>
+                Na 20 jaar als medeeigenaar van Infacilities en TFM, en een intensieve reis van zelfontplooiing 
+                en coaching-opleiding, heb ik de afgelopen 2 jaar me verdiept in AI-programmering.
+              </p>
+              <p>
+                Nu wil ik mijn ondernemersmind, coaching-vaardigheden en AI-kennis inzetten voor organisaties 
+                die echt impact maken. Tegen gereduceerde tarieven, zodat jullie budget kan gaan naar wat er echt toe doet.
+              </p>
+              <Link to="/over-mij" className="read-more">Mijn verhaal →</Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="therapy-section">
-        <div className="decorative-butterfly animate-float"></div>
-        <div className="decorative-water"></div>
-        <div className="container">
-          <h2>Lichaamsgerichte Traumatherapie</h2>
-          <div className="therapy-content">
-            <div className="therapy-text">
-              <p>In mijn praktijk bied ik lichaamsgerichte traumatherapie aan. Tijdens de sessies luister ik niet alleen naar jouw verhaal, maar ook naar de taal van je lichaam – zo ontdekken we samen wat je nodig hebt om te helen.</p>
-              <p>We werken in een veilige omgeving aan het verwerken van trauma, het vinden van innerlijke rust en het herstellen van balans in je leven. Alles gebeurt in jouw tempo en met respect voor jouw grenzen.</p>
-              <Link to="/therapie" className="read-more">Lees meer over de therapie</Link>
-            </div>
-            <div className="therapy-image">
-              <img src={mijnMissie} alt="Lichaamsgerichte Traumatherapie" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="walks-section">
-        <div className="decorative-flower-3 animate-float"></div>
-        <div className="container">
-          <h2>Therapeutische Wandelingen</h2>
-          <div className="walks-content">
-            <div className="walks-image">
-              <img src={wandeling} alt="Therapeutische Wandeling in Drenthe" />
-            </div>
-            <div className="walks-text">
-              <p>Naast therapiesessies in mijn praktijk, bied ik ook therapeutische wandelingen aan in de natuur. Tijdens deze wandelingen combineren we de helende kracht van de natuur met lichaamsgerichte traumatherapie.</p>
-              <p>De wandelingen vinden plaats in de prachtige omgeving van Drenthe en zijn geschikt voor iedereen die behoefte heeft aan rust, reflectie en heling in een natuurlijke omgeving.</p>
-              <Link to="/wandelingen" className="read-more">Lees meer over de wandelingen</Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="testimonials-section">
-        <div className="decorative-flower-3"></div>
-        <div className="container">
-          <div className="section-header">
-            <h2>Ervaringen</h2>
-            <p>Wat anderen zeggen over hun traject bij Praktijk basSIS</p>
-          </div>
-          <div className="testimonials-slider">
-            <div className="testimonial-card">
-              <div className="testimonial-content">
-                <p>"Bij jou voel ik me veilig en voel en weet ik dat het geen zin heeft mijn maskers te dragen, omdat je er toch wel door heen kijkt. Hierdoor ontstaat er een soort van rust, en vertrouwen waardoor ik mijn angst, boosheid en pijn aan durf te kijken."</p>
-                <div className="testimonial-author">- Een cliënt</div>
-              </div>
-            </div>
-            
-            <div className="testimonial-card">
-              <div className="testimonial-content">
-                <p>"Siska is een warme, zachte vrouw, die niet oordeelt, waardoor ik me open durf te stellen."</p>
-                <div className="testimonial-author">- Esther</div>
-              </div>
-            </div>
-            
-            <div className="testimonial-card">
-              <div className="testimonial-content">
-                <p>"Ik heb me nog nooit zo begrepen gevoeld. Dat doet veel. Ik was niet voorbereid op zoveel begrip. Jij durft duidelijk te zijn en daardoor voel ik me gezien."</p>
-                <div className="testimonial-author">- Een cliënt</div>
+            <div className="about-visual">
+              <div className="experience-timeline">
+                <div className="timeline-item">
+                  <div className="timeline-year">2004-2024</div>
+                  <div className="timeline-title">Facility Management</div>
+                  <div className="timeline-desc">Medeeigenaar Infacilities & TFM</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-year">2022-2024</div>
+                  <div className="timeline-title">AI & Coaching</div>
+                  <div className="timeline-desc">Zelfontplooiing & AI-programmeren</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-year">2025</div>
+                  <div className="timeline-title">Voor Jouw Succes</div>
+                  <div className="timeline-desc">Maatschappelijke impact</div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="testimonials-cta">
-            <Link to="/ervaringen" className="text-link">Lees meer ervaringen <i className="fas fa-arrow-right"></i></Link>
-          </div>
         </div>
       </section>
 
-      <section className="values-section">
-        <div className="decorative-heart-wood animate-float"></div>
+      <section className="why-us-section">
         <div className="container">
-          <div className="values-content">
-            <div className="values-text">
-              <h2>Wat mij drijft</h2>
-              <p>Bij Praktijk basSIS geloof ik in universele waarden die voor iedereen herkenbaar zijn:</p>
-              <ul className="values-list">
-                <li>Ieder mens is waardevol en mag er helemaal zijn</li>
-                <li>Er is ruimte om fouten te maken, los te laten en te helen</li>
-                <li>Vertrouwen in jezelf, in de ander en in iets groters</li>
-                <li>Niemand staat boven de ander, we zijn gelijkwaardig</li>
-              </ul>
-              <p className="values-quote">Je hoeft het niet alleen te dragen. Er is altijd hoop op herstel.</p>
-              <Link to="/over-mij" className="cta-button">Meer over mijn aanpak</Link>
+          <h2>Waarom Voor Jouw Succes?</h2>
+          <div className="why-grid">
+            <div className="why-item">
+              <div className="why-icon">🏢</div>
+              <h3>Ondernemerservaring</h3>
+              <p>20 jaar ervaring in het leiden en optimaliseren van organisaties. Ik begrijp hoe bedrijven werken.</p>
+            </div>
+            <div className="why-item">
+              <div className="why-icon">🤖</div>
+              <h3>AI-Expertise</h3>
+              <p>2 jaar intensief bezig geweest met AI-programmering. Praktische ervaring, geen theoretische kennis.</p>
+            </div>
+            <div className="why-item">
+              <div className="why-icon">💝</div>
+              <h3>Maatschappelijke Missie</h3>
+              <p>Gereduceerde tarieven voor non-profits en maatschappelijke organisaties. Jullie impact is mijn motivatie.</p>
+            </div>
+            <div className="why-item">
+              <div className="why-icon">🤝</div>
+              <h3>Partnerschap</h3>
+              <p>Geen externe consultant die komt vertellen wat je moet doen. Ik word onderdeel van jullie team.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="contact-section">
-        <div className="decorative-flower-1"></div>
+      <section className="approach-section">
         <div className="container">
-          <h2>Contact</h2>
-          <div className="contact-content">
-            <div className="contact-info">
-              <h3>Neem contact op</h3>
-              <p><strong>Email:</strong> info@praktijkbasis.eu</p>
-              <p><strong>Telefoon:</strong> 06-12345678</p>
-              <p><strong>Adres:</strong> Praktijkstraat 1, 7971 XX Havelte</p>
-              <Link to="/contact" className="read-more">Meer contactinformatie</Link>
+          <h2>Onze Aanpak</h2>
+          <div className="approach-steps">
+            <div className="step">
+              <div className="step-number">1</div>
+              <h3>Luisteren</h3>
+              <p>We beginnen met jullie verhaal. Wat zijn jullie ambities? Waar lopen jullie tegenaan?</p>
             </div>
-            <div className="contact-form">
-              <h3>Stuur een bericht</h3>
-              <form>
-                <div className="form-group">
-                  <label htmlFor="name">Naam</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">Email</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message">Bericht</label>
-                  <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" className="submit-button">Versturen</button>
-              </form>
+            <div className="step">
+              <div className="step-number">2</div>
+              <h3>Samen Plannen</h3>
+              <p>Op basis van jullie doelen maken we samen een plan dat past bij jullie organisatie.</p>
+            </div>
+            <div className="step">
+              <div className="step-number">3</div>
+              <h3>Samen Uitvoeren</h3>
+              <p>Ik word onderdeel van jullie team en we werken samen aan concrete resultaten.</p>
+            </div>
+            <div className="step">
+              <div className="step-number">4</div>
+              <h3>Samen Groeien</h3>
+              <p>Het doel is dat jullie zelfstandig verder kunnen met duurzame verandering.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="cta-section">
+        <div className="container">
+          <div className="cta-content">
+            <h2>Klaar om samen te bouwen aan jullie succes?</h2>
+            <p>
+              Laten we een gesprek plannen om te kijken hoe AI en procesoptimalisatie 
+              jullie organisatie kunnen helpen meer impact te maken.
+            </p>
+            <div className="cta-buttons">
+              <Link to="/contact" className="cta-button primary">Plan een gesprek</Link>
+              <Link to="/diensten" className="cta-button secondary">Bekijk onze diensten</Link>
             </div>
           </div>
         </div>

@@ -1,9 +1,9 @@
 {
-  "name": "siskawebsite2025",
+  "name": "voorjouwsucces2025",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://voskesss.github.io/praktijkbasis",
+  "homepage": "https://voskesss.github.io/voorjouwsucces2025",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

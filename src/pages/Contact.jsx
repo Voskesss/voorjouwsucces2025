@@ -19,12 +19,10 @@ function Contact() {
             <div className="contact-info">
               <h2>Contactgegevens</h2>
               <div className="info-item">
-                <h3>Adres</h3>
-                <address>
-                  Praktijkbasis<br />
-                  Praktijkstraat 1<br />
-                  7971 XX Havelte
-                </address>
+                <h3>Werklocatie</h3>
+                <p>
+                  Ik werk vanuit een kantoor aan huis om kosten te besparen. Dit stelt mij in staat om een gereduceerd uurtarief aan te bieden aan maatschappelijke organisaties. Werkzaamheden waarbij direct contact nodig is, voer ik op locatie bij de klant uit.
+                </p>
               </div>
               <div className="info-item">
                 <h3>Telefoon</h3>
@@ -33,13 +31,7 @@ function Contact() {
               </div>
               <div className="info-item">
                 <h3>E-mail</h3>
-                <p>info@praktijkbasis.eu</p>
-              </div>
-              <div className="info-item">
-                <h3>Bereikbaarheid</h3>
-                <p>
-                  De praktijk is goed bereikbaar met de auto. Er is voldoende gratis parkeergelegenheid voor de deur. Met het openbaar vervoer kun je de praktijk bereiken door de bus te nemen naar halte X (op ongeveer 10 minuten loopafstand).
-                </p>
+                <p>jos@voorjouwsucces.nl</p>
               </div>
             </div>
             <div className="contact-form-container">
@@ -47,30 +39,30 @@ function Contact() {
               <form className="contact-form">
                 <div className="form-group">
                   <label htmlFor="name">Naam*</label>
-                  <input type="text" id="name" name="name" required />
+                  <input type="text" id="name" name="name" className="form-control" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">E-mail*</label>
-                  <input type="email" id="email" name="email" required />
+                  <input type="email" id="email" name="email" className="form-control" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="phone">Telefoonnummer</label>
-                  <input type="tel" id="phone" name="phone" />
+                  <input type="tel" id="phone" name="phone" className="form-control" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="subject">Onderwerp*</label>
-                  <input type="text" id="subject" name="subject" required />
+                  <input type="text" id="subject" name="subject" className="form-control" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="message">Bericht*</label>
-                  <textarea id="message" name="message" rows="5" required></textarea>
+                  <textarea id="message" name="message" rows="5" className="form-control" required></textarea>
                 </div>
                 <div className="form-group">
                   <p className="privacy-note">
                     Door dit formulier te versturen ga je akkoord met onze privacyvoorwaarden. Je gegevens worden vertrouwelijk behandeld en alleen gebruikt om contact met je op te nemen.
                   </p>
                 </div>
-                <button type="submit" className="submit-button">Versturen</button>
+                <button type="submit" className="btn-submit">Versturen</button>
               </form>
             </div>
           </div>
@@ -85,7 +77,7 @@ function Contact() {
               Na het versturen van je bericht of het achterlaten van een voicemailbericht, neem ik binnen 2 werkdagen contact met je op. Ik bespreek graag je vragen en wensen, en indien gewenst kunnen we een afspraak inplannen voor een kennismakingsgesprek.
             </p>
             <p>
-              Het kennismakingsgesprek is bedoeld om elkaar te ontmoeten, je vragen te beantwoorden en te bespreken of lichaamsgerichte traumatherapie bij jou past. Na dit gesprek kun je in alle rust beslissen of je wilt starten met therapie.
+              Het kennismakingsgesprek is bedoeld om elkaar te ontmoeten, je vragen te beantwoorden en te bespreken hoe ik jouw organisatie kan ondersteunen. Door mijn kantoor aan huis te houden, kan ik een gereduceerd uurtarief aanbieden, wat vooral voordelig is voor maatschappelijke organisaties met beperkte budgetten.
             </p>
           </div>
         </div>

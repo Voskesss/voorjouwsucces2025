@@ -8,12 +8,11 @@ import SchemaMarkup from './components/seo/SchemaMarkup'
 // Pagina's importeren
 import Home from './pages/Home'
 import OverMij from './pages/OverMij'
-import Therapie from './pages/Therapie'
-import Wandelingen from './pages/Wandelingen'
-import PraktischeInfo from './pages/PraktischeInfo'
-import FAQ from './pages/FAQ'
+import Diensten from './pages/Diensten'
+import AIImplementatie from './pages/AIImplementatie'
+import Procesoptimalisatie from './pages/Procesoptimalisatie'
 import Contact from './pages/Contact'
-import Ervaringen from './pages/Ervaringen'
+import PraktischeInfo from './pages/PraktischeInfo'
 
 import './App.css'
 
@@ -27,12 +26,11 @@ const NotFound = () => (
 
 function App() {
   // Bepaal de basename op basis van de omgeving
-  // In productie (GitHub Pages) gebruiken we /praktijkbasis als basename
+  // In productie (GitHub Pages) gebruiken we /voorjouwsucces2025 als basename
   // Lokaal controleren we of we in de ontwikkelomgeving zitten
-  // Als we lokaal draaien op /praktijkbasis, dan gebruiken we dat als basename
-  const isLocalPraktijkbasis = window.location.pathname.startsWith('/praktijkbasis');
+  const isLocalVoorJouwSucces = window.location.pathname.startsWith('/voorjouwsucces2025');
   const isGitHubPages = window.location.hostname.includes('github.io');
-  const basename = isGitHubPages || isLocalPraktijkbasis ? '/praktijkbasis' : '';
+  const basename = isGitHubPages || isLocalVoorJouwSucces ? '/voorjouwsucces2025' : '';
   
   return (
     <Router basename={basename}>
@@ -44,12 +42,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/over-mij" element={<OverMij />} />
-            <Route path="/therapie" element={<Therapie />} />
-            <Route path="/wandelingen" element={<Wandelingen />} />
+            <Route path="/diensten" element={<Diensten />} />
+            <Route path="/ai-implementatie" element={<AIImplementatie />} />
+            <Route path="/procesoptimalisatie" element={<Procesoptimalisatie />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/praktische-info" element={<PraktischeInfo />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/ervaringen" element={<Ervaringen />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

@@ -1,13 +1,13 @@
 /**
- * SEO-configuratie voor de Praktijkbasis website
+ * SEO-configuratie voor de Voor Jouw Succes website
  */
 
 // Basis website informatie
-export const SITE_NAME = 'Praktijk basSIS';
-export const SITE_URL = 'https://praktijkbasis.eu';
-export const SITE_DESCRIPTION = 'Lichaamsgerichte traumatherapie met een christelijke basis. Siska Greving helpt mensen om weer in balans te komen en rust te vinden in een veilige omgeving.';
-export const SITE_KEYWORDS = 'praktijkbasis, lichaamsgerichte traumatherapie, christelijke basis, Siska Greving, balans, rust, herstel, trauma, persoonlijke groei, bewustwording, traumaverwerking, Havelte, Drenthe';
-export const SITE_AUTHOR = 'Siska Greving';
+export const SITE_NAME = 'Voor Jouw Succes';
+export const SITE_URL = 'https://voskesss.github.io/voorjouwsucces2025';
+export const SITE_DESCRIPTION = 'AI-gedreven organisatieontwikkeling voor maatschappelijke organisaties. Samen bouwen aan efficiëntere processen, betere teams en meer impact met praktische AI-oplossingen.';
+export const SITE_KEYWORDS = 'AI implementatie, maatschappelijke organisaties, procesoptimalisatie, organisatieontwikkeling, coaching, non-profit, AI-oplossingen, teamontwikkeling, projectbegeleiding, facility management, digitale transformatie';
+export const SITE_AUTHOR = 'Jos Klijnhout';
 export const SITE_LANGUAGE = 'nl';
 
 // Social media
@@ -20,32 +20,19 @@ export const SOCIAL_MEDIA = {
 // Structured data (JSON-LD) voor lokaal bedrijf
 export const getLocalBusinessSchema = () => ({
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': 'ProfessionalService',
   'name': SITE_NAME,
   'description': SITE_DESCRIPTION,
-  'image': `${SITE_URL}/images/logo-nieuw.png`,
+  'image': `${SITE_URL}/images/logo.png`,
   'url': SITE_URL,
   'telephone': '06-12345678', // Vervang door het juiste telefoonnummer
   'address': {
     '@type': 'PostalAddress',
-    'streetAddress': 'Praktijkstraat 1', // Vervang door het juiste adres
-    'addressLocality': 'Havelte', // Aangepast naar Havelte op basis van de briefing
-    'postalCode': '7971 XX', // Vervang door de juiste postcode
+    'addressLocality': 'Nederland',
     'addressCountry': 'NL'
   },
-  'geo': {
-    '@type': 'GeoCoordinates',
-    'latitude': '52.7710', // Vervang door de juiste coördinaten van Havelte
-    'longitude': '6.2360'  // Vervang door de juiste coördinaten van Havelte
-  },
-  'openingHoursSpecification': [
-    {
-      '@type': 'OpeningHoursSpecification',
-      'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      'opens': '09:00',
-      'closes': '17:00'
-    }
-  ],
+  'serviceType': ['AI Implementatie', 'Organisatieontwikkeling', 'Procesoptimalisatie', 'Coaching'],
+  'areaServed': 'Nederland',
   'priceRange': '€€',
   'sameAs': Object.values(SOCIAL_MEDIA).filter(Boolean)
 });
@@ -65,14 +52,14 @@ export const getWebsiteSchema = () => ({
   }
 });
 
-// Structured data (JSON-LD) voor een persoon (Siska Greving)
+// Structured data (JSON-LD) voor een persoon (Jos Klijnhout)
 export const getPersonSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Person',
   'name': SITE_AUTHOR,
-  'jobTitle': 'Lichaamsgericht Traumatherapeut',
-  'description': 'Lichaamsgericht traumatherapeut met een christelijke basis',
-  'image': `${SITE_URL}/images/Siska Greving 21-aangepast.jpg`,
+  'jobTitle': 'AI Implementatie Specialist',
+  'description': 'AI implementatie specialist met focus op maatschappelijke organisaties',
+  'image': `${SITE_URL}/images/Jos Klijnhout.jpg`,
   'url': SITE_URL,
   'sameAs': Object.values(SOCIAL_MEDIA).filter(Boolean),
   'worksFor': {

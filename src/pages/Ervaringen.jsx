@@ -74,7 +74,7 @@ function Ervaringen() {
           <div className="cta-content">
             <h2>Ook jouw verhaal delen?</h2>
             <p>Heb je een ervaring die je wilt delen? Ik hoor graag van je.</p>
-            <a href="mailto:info@praktijkbasis.nl" className="cta-button">Stuur je ervaring</a>
+            <a href="mailto:info@praktijkbasis.eu" className="cta-button">Stuur je ervaring</a>
           </div>
         </div>
       </section>

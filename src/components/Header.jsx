@@ -49,8 +49,8 @@ function Header() {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="logo-container">
-          <Link to="/" onClick={closeNav}>
-            <img src={logoNieuw} alt="Praktijk basSIS Logo" className="logo" />
+          <Link to="/" onClick={closeNav} className="logo-link">
+            <img src={logoNieuw} alt="Voor Jouw Succes Logo" className="logo" />
           </Link>
         </div>
         
@@ -72,32 +72,27 @@ function Header() {
             </li>
             <li className="nav-item">
               <NavLink to="/over-mij" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Over Siska
+                Over Mij
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/therapie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Traumatherapie
+              <NavLink to="/diensten" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Diensten
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/wandelingen" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Wandelingen
+              <NavLink to="/ai-implementatie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                AI-Implementatie
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/procesoptimalisatie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
+                Procesoptimalisatie
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/praktische-info" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
                 Praktische Info
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/ervaringen" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Ervaringen
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/faq" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                FAQ
               </NavLink>
             </li>
             <li className="nav-item">

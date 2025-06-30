@@ -1,39 +1,72 @@
 /* Contact Pagina Stijlen */
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
 
 .contact-page section {
   width: 100%;
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 .contact-page h1 {
-  font-size: 2.5rem;
-  color: #2c4c3b;
+  font-size: 3.5rem;
+  font-weight: 800;
   text-align: center;
   margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #430D7D, #D60C7B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+  letter-spacing: -1px;
 }
 
 .contact-page h2 {
-  font-size: 2rem;
-  color: #2c4c3b;
-  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #D60C7B;
 }
 
 .contact-page h3 {
-  font-size: 1.4rem;
-  color: #4a7c59;
+  font-size: 1.6rem;
+  color: #D60C7B;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .contact-page p {
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.7;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: #64748b;
 }
 
 /* Hero sectie */
 .contact-page .hero-section {
-  background-color: #f3f8f5;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.9) 0%, 
+    rgba(248, 250, 252, 0.95) 50%, 
+    rgba(226, 232, 240, 0.9) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-page .hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(67, 13, 125, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(215, 12, 123, 0.08) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .intro-text {
@@ -41,12 +74,18 @@
   text-align: center;
   max-width: 800px;
   margin: 0 auto 2rem;
-  color: #4a7c59;
+  color: #64748b;
+  font-weight: 500;
+  line-height: 1.7;
+  position: relative;
+  z-index: 2;
 }
 
 /* Contact sectie */
 .contact-section {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .contact-content {
@@ -100,23 +139,27 @@ address {
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
+  color: #D60C7B;
 }
 
 .form-group input,
-.form-group textarea {
+.form-control {
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 1rem;
   font-size: 1rem;
-  transition: border-color 0.3s ease;
+  border: 1px solid rgba(203, 213, 225, 0.5);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: #4a7c59;
+.form-control:focus {
   outline: none;
+  border-color: #D60C7B;
+  box-shadow: 0 0 0 3px rgba(215, 12, 123, 0.2);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .privacy-note {
@@ -125,22 +168,23 @@ address {
   margin-bottom: 1rem;
 }
 
-.submit-button {
-  background-color: #4a7c59;
+.btn-submit {
+  background: linear-gradient(135deg, #430D7D, #D60C7B);
   color: white;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
   border: none;
-  border-radius: 30px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 16px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(74, 124, 89, 0.3);
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 40px rgba(67, 13, 125, 0.3);
 }
 
-.submit-button:hover {
-  background-color: #2c4c3b;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(74, 124, 89, 0.4);
+.btn-submit:hover {
+  background: linear-gradient(135deg, #430D7D, #D60C7B);
+  box-shadow: 0 15px 50px rgba(67, 13, 125, 0.4);
+  transform: translateY(-3px);
 }
 
 /* Reactie sectie */

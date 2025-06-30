@@ -178,8 +178,8 @@
   gap: 2.5rem;
 }
 
+/* CTA section styling is nu in Home.css met paars-roze gradiënt */
 .cta-section {
-  background-color: var(--color-bg-alt);
   padding: 5rem 0;
   text-align: center;
 }

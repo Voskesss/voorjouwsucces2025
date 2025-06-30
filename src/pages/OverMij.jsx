@@ -1,23 +1,16 @@
-import React from 'react';
-import '../styles/OverMij.css';
-import overSiskaImg from '../assets/images/over-siska-energetische-therapie.jpg';
-import siskaPortret from '../assets/images/Siska Greving 21-aangepast.jpg';
+import React from "react";
+import "../styles/OverMij.css";
 
 function OverMij() {
   return (
     <div className="over-mij-page">
-      <div className="decorative-flower-2 animate-float" style={{top: '150px', right: '8%'}}></div>
-      <div className="decorative-butterfly" style={{bottom: '30%', left: '5%'}}></div>
       <section className="hero-section">
         <div className="container">
-          <h1>Over Siska</h1>
+          <h1>Over Jos</h1>
           <div className="hero-content">
-            <div className="hero-image">
-              <img src={siskaPortret} alt="Siska Greving, lichaamsgericht traumatherapeut" />
-            </div>
             <div className="hero-text">
               <p className="intro-text">
-                Mijn naam is Siska Greving. Als lichaamsgericht traumatherapeut geloof ik in de veerkracht van ieder mens. Vanuit een diep gewortelde overtuiging dat ieder mens waardevol en geliefd is, begeleid ik jongeren en volwassenen op hun weg naar herstel en balans.
+                Mijn naam is Jos Klijnhout. Na 20 jaar ervaring in facility management als medeeigenaar van Infacilities en TFM, heb ik mijn passie gevonden in het ondersteunen van maatschappelijke organisaties. Door mijn achtergrond als ondernemer, coaching opleiding en 2 jaar AI-programmeren, help ik organisaties efficiënter en effectiever te worden.
               </p>
             </div>
           </div>
@@ -30,14 +23,11 @@ function OverMij() {
             <div className="mission-text">
               <h2>Mijn visie</h2>
               <p>
-                Ik werk vanuit mijn christelijke levensovertuiging, wat voor mij betekent dat ik ieder mens zie als waardevol en geliefd. Deze overtuiging vormt de basis van mijn werk als lichaamsgericht traumatherapeut. Ik geloof dat echte balans ontstaat wanneer iemand leeft naar belangrijke waarden zoals liefde, innerlijke rust, gemeenschap, vertrouwen en verbondenheid.
+                Ik geloof dat maatschappelijke organisaties een cruciale rol spelen in onze samenleving. Deze organisaties verdienen de beste ondersteuning om hun missie te kunnen vervullen. Met mijn ondernemerservaring en technische kennis help ik hen processen te optimaliseren en AI-technologie slim in te zetten.
               </p>
               <p>
-                In mijn praktijk staat de mens als geheel centraal - lichaam, geest en ziel. Trauma kan zich vastzetten in het lichaam, en door aandachtig te luisteren naar zowel je verhaal als de signalen van je lichaam, kunnen we samen werken aan herstel en het vinden van balans.
+                Mijn aanpak is praktisch en resultaatgericht. Ik werk graag samen met teams om werkprocessen niet alleen efficiënter, maar ook leuker te maken. Door de juiste combinatie van coaching, procesoptimalisatie en AI-implementatie kunnen organisaties meer impact maken met minder middelen.
               </p>
-            </div>
-            <div className="mission-image">
-              <img src={overSiskaImg} alt="Siska Greving in praktijk" />
             </div>
           </div>
         </div>
@@ -48,10 +38,48 @@ function OverMij() {
           <h2>Mijn achtergrond</h2>
           <div className="background-content">
             <p>
-              Mijn weg naar het worden van lichaamsgericht traumatherapeut begon vanuit een persoonlijke zoektocht naar balans en betekenis. Ik heb ervaren hoe belangrijk het is om in verbinding te staan met jezelf, je lichaam en je omgeving. Deze ervaring heeft mij geïnspireerd om anderen te helpen bij hun eigen helingsproces.
+              Mijn ondernemersreis begon 20 jaar geleden in de facility management sector. Als medeeigenaar van Infacilities en TFM heb ik geleerd hoe belangrijk efficiënte processen en goede samenwerking zijn voor het succes van een organisatie.
             </p>
             <p>
-              Ik ben professioneel opgeleid als lichaamsgericht traumatherapeut en blijf mij voortdurend ontwikkelen door middel van bijscholing en verdieping in nieuwe inzichten op het gebied van traumaverwerking en lichaamsgerichte therapie.
+              Naast mijn ondernemerservaring heb ik me ontwikkeld als coach en heb ik de afgelopen 2 jaar intensief gewerkt met AI-technologie. Deze unieke combinatie stelt me in staat organisaties op meerdere niveaus te ondersteunen.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="expertise-section">
+        <div className="container">
+          <h2>Mijn expertise</h2>
+          <div className="expertise-grid">
+            <div className="expertise-item">
+              <h3>🏢 Ondernemerschap</h3>
+              <p>20 jaar ervaring als medeeigenaar van succesvolle facility management bedrijven</p>
+            </div>
+            <div className="expertise-item">
+              <h3>👥 Coaching</h3>
+              <p>Professionele coaching opleiding voor team- en individuele ontwikkeling</p>
+            </div>
+            <div className="expertise-item">
+              <h3>🤖 AI-technologie</h3>
+              <p>2 jaar intensieve ervaring met AI-programmering en implementatie</p>
+            </div>
+            <div className="expertise-item">
+              <h3>⚙️ Procesoptimalisatie</h3>
+              <p>Werkprocessen efficiënter en leuker maken door slimme aanpassingen</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="approach-section">
+        <div className="container">
+          <h2>Mijn aanpak</h2>
+          <div className="approach-content">
+            <p>
+              Ik werk graag samen met organisaties die maatschappelijke impact willen maken. Mijn aanpak is altijd praktisch en gericht op concrete resultaten. Door mijn ondernemerservaring begrijp ik de uitdagingen waar organisaties mee te maken hebben.
+            </p>
+            <p>
+              Voor maatschappelijke organisaties bied ik mijn diensten aan tegen gereduceerde tarieven. Ik geloof dat deze organisaties de beste ondersteuning verdienen om hun belangrijke werk te kunnen doen.
             </p>
           </div>
         </div>
@@ -59,23 +87,23 @@ function OverMij() {
 
       <section className="values-section">
         <div className="container">
-          <h2>Mijn kernwaarden</h2>
+          <h2>Mijn waarden</h2>
           <div className="values-grid">
-            <div className="value-card">
-              <h3>Veiligheid</h3>
-              <p>Ik bied een veilige haven waar je verhaal welkom is. Vertrouwelijkheid, geborgenheid en gelijkwaardigheid staan centraal in mijn praktijk.</p>
+            <div className="value-item">
+              <h3>Maatschappelijke impact</h3>
+              <p>Bijdragen aan een betere samenleving door organisaties te helpen die er toe doen</p>
             </div>
-            <div className="value-card">
-              <h3>Liefde & Compassie</h3>
-              <p>Ik benader iedereen met liefde, respect en zachtheid. Ik werk vanuit oprechte compassie en zonder oordeel.</p>
+            <div className="value-item">
+              <h3>Praktische resultaten</h3>
+              <p>Concrete verbeteringen die direct merkbaar zijn in het dagelijks werk</p>
             </div>
-            <div className="value-card">
-              <h3>Verbinding</h3>
-              <p>Ik geloof in het belang van verbondenheid - zowel de verbinding met jezelf (lichaam en geest) als verbinding met anderen.</p>
+            <div className="value-item">
+              <h3>Samenwerking</h3>
+              <p>Samen werken aan oplossingen, niet van buitenaf opleggen</p>
             </div>
-            <div className="value-card">
-              <h3>Rust & Herstel</h3>
-              <p>Mijn praktijk is een plek voor mensen die zoeken naar innerlijke rust en genezing van trauma. Er heerst een kalme sfeer waar tijd is voor herstel.</p>
+            <div className="value-item">
+              <h3>Betaalbaarheid</h3>
+              <p>Kwaliteit moet toegankelijk zijn voor maatschappelijke organisaties</p>
             </div>
           </div>
         </div>
@@ -86,10 +114,7 @@ function OverMij() {
           <div className="closing-content">
             <h2>Mijn uitnodiging aan jou</h2>
             <p>
-              Je bent van harte welkom bij Praktijkbasis. Of je nu worstelt met trauma, stress, of simpelweg op zoek bent naar meer balans in je leven - ik nodig je uit om samen te ontdekken wat jou kan helpen om weer in je kracht te komen.
-            </p>
-            <p className="quote">
-              "Waar verhalen worden gedeeld, begint heling. Waar lichamen worden gehoord, ontstaat ruimte voor groei."
+              Je bent van harte welkom bij Voor Jouw Succes. Of je nu worstelt met uitdagingen in je organisatie, of simpelweg op zoek bent naar meer efficiëntie en impact - ik nodig je uit om samen te ontdekken wat jou kan helpen om je doelen te bereiken.
             </p>
           </div>
         </div>
