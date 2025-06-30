@@ -49,6 +49,30 @@ Dit is de website voor Voor Jouw Succes, een coaching en begeleiding praktijk. D
 - Node.js (versie 18 of hoger)
 - npm of yarn
 
+### Lokaal ontwikkelen
+
+```bash
+# Installeer dependencies
+npm install
+
+# Start ontwikkelserver
+npm run dev
+```
+
+## Deployment
+
+Deze website wordt automatisch gedeployed naar GitHub Pages wanneer er wijzigingen worden gepusht naar de `main` branch. De deployment wordt afgehandeld door GitHub Actions.
+
+### Deployment configuratie
+
+- **GitHub Pages URL**: https://voskesss.github.io/voorjouwsucces2025/
+- **Base URL**: `/voorjouwsucces2025/`
+- **Workflow**: `.github/workflows/deploy.yml`
+
+### Handmatig deployen
+
+Je kunt ook handmatig een deployment starten door naar de GitHub repository te gaan, naar de Actions tab te navigeren, en de workflow "Deploy to GitHub Pages" te selecteren en op "Run workflow" te klikken.
+
 ### Installatie
 
 ```bash
