@@ -82,17 +82,17 @@ function Header() {
             </li>
             <li className="nav-item">
               <NavLink to="/ai-implementatie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                AI-Implementatie
+                AI Oplossingen
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/procesoptimalisatie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Procesoptimalisatie
+                Optimalisatie
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/praktische-info" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Praktische Info
+                Info
               </NavLink>
             </li>
             <li className="nav-item">

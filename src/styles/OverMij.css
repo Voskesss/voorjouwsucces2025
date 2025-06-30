@@ -31,10 +31,8 @@
   pointer-events: none;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+/* Container wordt gedefinieerd in index.css */
+.over-mij-container {
   position: relative;
   z-index: 2;
 }

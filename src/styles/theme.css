@@ -1,7 +1,7 @@
 /* Thema stijlen voor Voor Jouw Succes */
 
-/* Importeer Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* Geen Google Fonts import nodig voor Verdana */
+/* Verdana is een systeemlettertype dat standaard beschikbaar is */
 
 /* Variabelen voor kleurenpalet en typografie */
 :root {
@@ -16,7 +16,9 @@
   --color-dark: #111111;          /* Donkere kleur voor contrasten */
   --color-muted: #64748b;         /* Gedempte kleur voor subtiele tekst */
   
-  --font-main: 'Poppins', sans-serif;  /* Modern lettertype voor alles */
+  --font-main: Verdana, Geneva, sans-serif;  /* Verdana lettertype voor alles */
+  --font-body: Verdana, Geneva, sans-serif;  /* Verdana lettertype voor body tekst */
+  --font-heading: Verdana, Geneva, sans-serif;  /* Verdana lettertype voor koppen */
   
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);   /* Kleine schaduw */
   --shadow-md: 0 4px 24px rgba(0, 0, 0, 0.1);    /* Middelgrote schaduw */

@@ -5,62 +5,62 @@ import { useLocation } from 'react-router-dom';
 const seoConfig = {
   // Startpagina
   '/': {
-    title: 'Praktijkbasis - Lichaamsgerichte traumatherapie met een christelijke basis',
-    description: 'Welkom bij Praktijkbasis - een plek van rust en herstel. Lichaamsgerichte traumatherapie met een christelijke basis in Havelte, Drenthe.',
-    keywords: 'praktijkbasis, lichaamsgerichte traumatherapie, christelijke basis, Siska Greving, balans, rust, herstel, trauma, Havelte',
-    ogImage: '/images/Siska Greving 21-aangepast.jpg',
+    title: 'Voor Jouw Succes - Coaching en Begeleiding voor Ondernemers',
+    description: 'Welkom bij Voor Jouw Succes - Professionele coaching en begeleiding voor ondernemers die willen groeien en hun doelen willen bereiken.',
+    keywords: 'voor jouw succes, coaching, ondernemerscoaching, begeleiding, business coaching, groei, ondernemers',
+    ogImage: '/images/home-hero.jpg',
   },
   // Over mij pagina
   '/over-mij': {
-    title: 'Over Siska Greving - Lichaamsgericht Traumatherapeut | Praktijkbasis',
-    description: 'Maak kennis met Siska Greving, lichaamsgericht traumatherapeut met een christelijke basis bij Praktijkbasis in Havelte, Drenthe.',
-    keywords: 'Siska Greving, lichaamsgericht traumatherapeut, christelijke basis, praktijkbasis, over mij, persoonlijke groei',
-    ogImage: '/images/over-siska-energetische-therapie.jpg',
+    title: 'Over Mij - Jouw Coach voor Ondernemerssucces | Voor Jouw Succes',
+    description: 'Maak kennis met de coach achter Voor Jouw Succes. Persoonlijke begeleiding voor ondernemers die willen groeien en hun doelen willen bereiken.',
+    keywords: 'over mij, coach, ondernemerscoach, voor jouw succes, persoonlijke groei, ondernemerschap',
+    ogImage: '/images/over-mij.jpg',
   },
-  // Therapie pagina
-  '/therapie': {
-    title: 'Lichaamsgerichte Traumatherapie - Vind Balans en Herstel | Praktijkbasis',
-    description: 'Ontdek lichaamsgerichte traumatherapie bij Praktijkbasis in Havelte. Werk aan innerlijke rust, herstel van trauma en vind balans in je leven.',
-    keywords: 'lichaamsgerichte traumatherapie, christelijke basis, traumaverwerking, innerlijke rust, balans, praktijkbasis, Havelte',
-    ogImage: '/images/mijn-missie-energetisch-aangepast.jpg',
+  // Diensten pagina
+  '/diensten': {
+    title: 'Diensten - Coaching en Begeleiding op Maat | Voor Jouw Succes',
+    description: 'Ontdek de verschillende coaching en begeleidingsdiensten van Voor Jouw Succes. Op maat gemaakte trajecten voor jouw specifieke situatie.',
+    keywords: 'diensten, coaching, begeleiding, ondernemerscoaching, business coaching, voor jouw succes',
+    ogImage: '/images/diensten.jpg',
   },
-  // Wandelingen pagina
-  '/wandelingen': {
-    title: 'Therapeutische Wandelingen in de Natuur | Praktijkbasis Havelte',
-    description: 'Therapeutische wandelingen in de natuur van Drenthe. Combineer de helende kracht van de natuur met lichaamsgerichte traumatherapie.',
-    keywords: 'therapeutische wandelingen, natuur, Drenthe, lichaamsgerichte traumatherapie, praktijkbasis, Havelte, herstel',
-    ogImage: '/images/therapeutische-wandeling.jpg',
+  // AI Implementatie pagina
+  '/ai-implementatie': {
+    title: 'AI-Implementatie voor Maatschappelijke Organisaties | Voor Jouw Succes',
+    description: 'Specialistische begeleiding bij het implementeren van AI in maatschappelijke organisaties. Ontdek hoe AI jouw organisatie kan versterken.',
+    keywords: 'AI implementatie, kunstmatige intelligentie, maatschappelijke organisaties, digitale transformatie, voor jouw succes',
+    ogImage: '/images/ai-implementatie.jpg',
+  },
+  // Procesoptimalisatie pagina
+  '/procesoptimalisatie': {
+    title: 'Procesoptimalisatie - Efficiënter Werken | Voor Jouw Succes',
+    description: 'Optimaliseer je bedrijfsprocessen en werk efficiënter met de begeleiding van Voor Jouw Succes. Verhoog je productiviteit en verlaag kosten.',
+    keywords: 'procesoptimalisatie, efficiënter werken, bedrijfsprocessen, workflow, productiviteit, voor jouw succes',
+    ogImage: '/images/procesoptimalisatie.jpg',
   },
   // Contact pagina
   '/contact': {
-    title: 'Contact - Maak een Afspraak | Praktijkbasis Havelte',
-    description: 'Neem contact op met Praktijkbasis voor lichaamsgerichte traumatherapie in Havelte, Drenthe. Maak een afspraak met Siska Greving.',
-    keywords: 'contact, afspraak maken, praktijkbasis, Siska Greving, lichaamsgerichte traumatherapie, Havelte, Drenthe',
-    ogImage: '/images/Siska Greving 21-aangepast.jpg',
+    title: 'Contact - Neem Contact Op | Voor Jouw Succes',
+    description: 'Neem contact op met Voor Jouw Succes voor meer informatie over coaching en begeleiding. Samen werken we aan jouw succes.',
+    keywords: 'contact, afspraak maken, voor jouw succes, coaching, begeleiding, ondernemerscoaching',
+    ogImage: '/images/contact.jpg',
   },
   // Praktische informatie pagina
   '/praktische-info': {
-    title: 'Praktische Informatie - Locatie, Tarieven & Meer | Praktijkbasis',
-    description: 'Praktische informatie over Praktijkbasis in Havelte. Locatie, tarieven, vergoedingen en alles wat je moet weten voor je eerste afspraak.',
-    keywords: 'praktische informatie, locatie, tarieven, vergoedingen, afspraak, praktijkbasis, Havelte, lichaamsgerichte traumatherapie',
-    ogImage: '/images/Siska Greving 21-aangepast.jpg',
-  },
-  // FAQ pagina
-  '/faq': {
-    title: 'Veelgestelde Vragen over Lichaamsgerichte Traumatherapie | Praktijkbasis',
-    description: 'Antwoorden op veelgestelde vragen over lichaamsgerichte traumatherapie bij Praktijkbasis in Havelte. Wat kun je verwachten tijdens een sessie?',
-    keywords: 'veelgestelde vragen, FAQ, lichaamsgerichte traumatherapie, praktijkbasis, wat te verwachten, sessie, Havelte',
-    ogImage: '/images/Siska Greving 21-aangepast.jpg',
+    title: 'Praktische Informatie - Werkwijze & Tarieven | Voor Jouw Succes',
+    description: 'Praktische informatie over Voor Jouw Succes. Werkwijze, tarieven en alles wat je moet weten voordat we samen aan de slag gaan.',
+    keywords: 'praktische informatie, werkwijze, tarieven, coaching, voor jouw succes',
+    ogImage: '/images/praktische-info.jpg',
   },
 };
 
 // Standaard SEO-configuratie als fallback
 const defaultSeo = {
-  title: 'Praktijkbasis - Lichaamsgerichte traumatherapie met een christelijke basis',
-  description: 'Praktijkbasis - Lichaamsgerichte traumatherapie met een christelijke basis in Havelte, Drenthe. Siska Greving helpt mensen om weer in balans te komen en rust te vinden.',
-  keywords: 'praktijkbasis, lichaamsgerichte traumatherapie, christelijke basis, Siska Greving, balans, rust, herstel, trauma, Havelte, Drenthe',
-  ogImage: '/images/Siska Greving 21-aangepast.jpg',
-  siteUrl: 'https://praktijkbasis.eu',
+  title: 'Voor Jouw Succes - Coaching en Begeleiding voor Ondernemers',
+  description: 'Voor Jouw Succes biedt professionele coaching en begeleiding voor ondernemers die willen groeien en hun doelen willen bereiken.',
+  keywords: 'voor jouw succes, coaching, ondernemerscoaching, begeleiding, business coaching, groei, ondernemers',
+  ogImage: '/images/home-hero.jpg',
+  siteUrl: 'https://voskesss.github.io/voorjouwsucces2025',
 };
 
 /**

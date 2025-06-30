@@ -9,7 +9,7 @@ function PraktischeInfo() {
         <div className="container">
           <h1>Praktische Informatie</h1>
           <p className="intro-text">
-            Op deze pagina vind je alle praktische informatie over Praktijkbasis. Heb je na het lezen nog vragen? Neem dan gerust contact op.
+            Op deze pagina vind je alle praktische informatie over Voor Jouw Succes. Heb je na het lezen nog vragen? Neem dan gerust contact op.
           </p>
         </div>
       </section>
@@ -20,15 +20,15 @@ function PraktischeInfo() {
           <div className="location-content">
             <div className="location-info">
               <p>
-                Praktijkbasis bevindt zich in Havelte, in een rustige groene omgeving. De praktijkruimte is een plek van privacy en stilte, makkelijk bereikbaar met de auto en met voldoende parkeergelegenheid voor de deur.
+                Voor Jouw Succes is gevestigd in een professionele en inspirerende omgeving. De coaching ruimte biedt een prettige sfeer waar we ongestoord kunnen werken aan jouw doelen en uitdagingen.
               </p>
               <address>
                 <strong>Adres:</strong><br />
-                Praktijkbasis<br />
-                Praktijkstraat 1<br />
-                7971 XX Havelte<br />
+                Voor Jouw Succes<br />
+                Businessweg 10<br />
+                1234 AB Amsterdam<br />
                 <strong>Telefoon:</strong> 06-12345678<br />
-                <strong>E-mail:</strong> info@praktijkbasis.eu
+                <strong>E-mail:</strong> info@voorjouwsucces.nl
               </address>
               <p>
                 <strong>Bereikbaarheid:</strong><br />
