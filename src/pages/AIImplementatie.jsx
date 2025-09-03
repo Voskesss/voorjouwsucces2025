@@ -11,14 +11,16 @@ const AIImplementatie = () => {
         keywords="AI implementatie, artificial intelligence, automatisering, data-analyse, maatschappelijke organisaties, non-profit AI, chatbots, proces automatisering"
       />
       
-      <div className="ai-page">
-        <div className="container">
-          <div className="hero-section">
+      <div className="page-container">
+        <div className="page-hero">
+          <div className="page-content">
             <h1>AI-Implementatie voor Maatschappelijke Organisaties</h1>
-            <p className="hero-subtitle">
+            <p>
               Praktische AI-oplossingen die echt werken. Geen hype, maar concrete tools die jullie werk makkelijker en effectiever maken.
             </p>
           </div>
+        </div>
+        <div className="page-content">
 
           <div className="intro-section">
             <div className="intro-content">
