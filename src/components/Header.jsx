@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import '../styles/Header.css';
+import '../styles/NewDesign.css';
 import logoNieuw from '../assets/images/logo-nieuw.png';
 
 function Header() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Footer.css';
+import '../styles/NewDesign.css';
 import logoNieuw from '../assets/images/logo-nieuw.png';
 
 function Footer() {
@@ -13,7 +13,7 @@ function Footer() {
           <Link to="/">
             <img src={logoNieuw} alt="Voor Jouw Succes Logo" className="footer-logo" />
           </Link>
-          <p>Voor Jouw Succes biedt strategie en uitvoering voor maatschappelijke organisaties die meer impact willen maken. Met AI-implementatie en procesoptimalisatie helpen we jouw organisatie vooruit.</p>
+          <p>Voor Jouw Succes begeleidt ondernemers en organisaties naar authentiek succes door het Complete Succes Framework. Van coaching tot procesoptimalisatie en AI-implementatie - een holistische aanpak voor duurzame transformatie.</p>
         </div>
         
         <div className="footer-links">
