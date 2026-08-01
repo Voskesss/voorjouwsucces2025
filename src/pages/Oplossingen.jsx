@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/seo/SEO';
+import Voorbeelden from '../components/Voorbeelden';
 
 const Oplossingen = () => {
   return (
@@ -151,7 +152,7 @@ const Oplossingen = () => {
           </div>
         </section>
 
-        <section className="section section--soft">
+        <section className="section">
           <div className="container">
             <div className="section-head">
               <span className="eyebrow">Zo simpel werkt het</span>
@@ -176,6 +177,8 @@ const Oplossingen = () => {
             </div>
           </div>
         </section>
+
+        <Voorbeelden />
 
         <section className="cta-band">
           <div className="container">
