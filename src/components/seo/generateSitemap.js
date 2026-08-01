@@ -1,31 +1,32 @@
 /**
  * Script om een XML-sitemap te genereren voor betere indexering door zoekmachines
+ * Uitvoeren met: node src/components/seo/generateSitemap.js
  */
 
 import fs from 'fs';
 import path from 'path';
+import process from 'process';
+import { fileURLToPath } from 'url';
 
 // Configuratie
-const SITE_URL = 'https://praktijkbasis.eu';
+const SITE_URL = 'https://voskesss.github.io/voorjouwsucces2025';
 const OUTPUT_PATH = path.resolve(process.cwd(), 'public', 'sitemap.xml');
 
 // Lijst met alle pagina's van de website
 const pages = [
   { url: '/', priority: '1.0', changefreq: 'weekly' },
+  { url: '/oplossingen', priority: '0.9', changefreq: 'monthly' },
   { url: '/over-mij', priority: '0.8', changefreq: 'monthly' },
-  { url: '/therapie', priority: '0.8', changefreq: 'monthly' },
-  { url: '/wandelingen', priority: '0.8', changefreq: 'monthly' },
   { url: '/contact', priority: '0.7', changefreq: 'monthly' },
 ];
 
 // Genereer de XML-sitemap
 const generateSitemap = () => {
   const today = new Date().toISOString().split('T')[0];
-  
+
   let sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n';
   sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
-  
-  // Voeg elke pagina toe aan de sitemap
+
   pages.forEach(page => {
     sitemap += '  <url>\n';
     sitemap += `    <loc>${SITE_URL}${page.url}</loc>\n`;
@@ -34,9 +35,9 @@ const generateSitemap = () => {
     sitemap += `    <priority>${page.priority}</priority>\n`;
     sitemap += '  </url>\n';
   });
-  
+
   sitemap += '</urlset>';
-  
+
   return sitemap;
 };
 
@@ -48,7 +49,7 @@ const writeSitemap = () => {
 };
 
 // Voer het script uit als het direct wordt aangeroepen
-if (require.main === module) {
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
   writeSitemap();
 }
 
