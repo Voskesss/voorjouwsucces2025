@@ -1,6 +1,28 @@
 # robots.txt voor Voor Jouw Succes
+# Alle bezoekers welkom, ook AI-assistenten.
+
 User-agent: *
 Allow: /
 
-# Sitemap locatie
+# AI-crawlers expliciet welkom
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://voskesss.github.io/voorjouwsucces2025/sitemap.xml
+
+# Samenvatting voor AI-assistenten: /llms.txt

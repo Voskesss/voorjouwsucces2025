@@ -36,6 +36,14 @@ Sitemap opnieuw genereren na wijzigingen in de routes:
 node src/components/seo/generateSitemap.js
 ```
 
+## SEO & AI-vindbaarheid
+
+- **Prerendering:** na `npm run build` draait automatisch `scripts/prerender.mjs` (postbuild). Elke route wordt als statische HTML in `dist/` gezet, zodat zoekmachines en AI-crawlers de volledige inhoud zien én directe links naar subpagina's werken op GitHub Pages (incl. `404.html`-fallback). Lokaal gebruikt het script de Chromium op `/opt/pw-browsers/chromium` of `CHROME_PATH`; op GitHub Actions het voorgeïnstalleerde Chrome.
+- **Structured data:** JSON-LD voor organisatie, persoon en website (`SchemaMarkup`) plus een FAQPage-schema in de FAQ-component.
+- **`public/llms.txt`:** samenvatting van het bedrijf voor AI-assistenten.
+- **`public/robots.txt`:** alle crawlers welkom, AI-bots expliciet benoemd, verwijst naar de sitemap.
+- **`public/sitemap.xml`:** te regenereren met `node src/components/seo/generateSitemap.js`.
+
 ## Deployment
 
 De site wordt automatisch gedeployed naar GitHub Pages bij een push naar `main` (workflow: `.github/workflows/deploy.yml`).

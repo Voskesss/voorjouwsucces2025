@@ -7,19 +7,18 @@ const Oplossingen = () => {
     <>
       <SEO
         title="Oplossingen - Voor Jouw Succes"
-        description="Digitale oplossingen voor MKB, vanuit jouw vraagstuk: AI-oplossingen bedenken, systemen koppelen en uitlezen, agents bouwen en je digitale omgeving vernieuwen."
-        keywords="digitale oplossingen MKB, systemen koppelen, API koppeling, systemen uitlezen, AI agents bouwen, automatisering, digitale omgeving vernieuwen"
+        description="Dit lost Voor Jouw Succes op: systemen die niet samenwerken, te veel handwerk, geen overzicht, vragen over AI, een verouderde website en het gemis van een sparringpartner."
+        keywords="digitale oplossingen MKB, systemen koppelen, automatisering, AI advies, dashboards, website vernieuwen, sparringpartner ondernemers"
       />
 
       <div className="oplossingen-page">
         <section className="page-hero">
           <div className="container">
             <span className="eyebrow">Oplossingen</span>
-            <h1>Begin bij het probleem, niet bij de techniek</h1>
+            <h1>Dit los ik op</h1>
             <p>
-              Geen diensten uit een folder. Hieronder zie je de vraagstukken waarmee
-              bedrijven bij me aankloppen – en hoe we die samen oplossen. Staat jouw
-              vraag er niet bij? Juist dan wil ik hem horen.
+              Herken het probleem, dan zie je meteen hoe we het aanpakken.
+              Staat jouw vraag er niet bij? Juist dan wil ik hem horen.
             </p>
           </div>
         </section>
@@ -28,125 +27,119 @@ const Oplossingen = () => {
           <div className="container">
             <div className="grid-2">
 
-              <div className="card solution-card">
+              <div className="card solution-card" id="koppelen">
                 <div className="sol-head">
                   <span className="sol-icon">🔗</span>
                   <h3>Systemen die met elkaar praten</h3>
                 </div>
                 <blockquote>
-                  "Ons boekhoudpakket, de planning en het CRM zijn allemaal eilandjes.
-                  We typen alles dubbel over."
+                  "Ons boekhoudpakket, de planning en het CRM zijn allemaal
+                  eilandjes. We typen alles dubbel over."
                 </blockquote>
                 <ul>
-                  <li>Ik breng in kaart welke systemen je hebt en wat ze moeten uitwisselen</li>
-                  <li>Via slimme koppelingen (API's) laat ik ze samenwerken</li>
-                  <li>Je hoeft niet alles te vervangen – we bouwen op wat er is</li>
+                  <li>Ik laat je bestaande pakketten samenwerken via koppelingen</li>
                   <li>Gegevens komen vanzelf op de juiste plek terecht</li>
+                  <li>Je hoeft niets te vervangen – we bouwen op wat er is</li>
                 </ul>
                 <p className="sol-result">
-                  <strong>Resultaat:</strong> geen dubbel werk meer, minder fouten en
+                  <strong>Resultaat:</strong> geen dubbel werk, minder fouten,
                   één kloppend geheel.
                 </p>
               </div>
 
-              <div className="card solution-card">
+              <div className="card solution-card" id="automatiseren">
                 <div className="sol-head">
                   <span className="sol-icon">🤖</span>
-                  <h3>Agents die werk uit handen nemen</h3>
+                  <h3>Handwerk dat vanzelf gaat</h3>
                 </div>
                 <blockquote>
-                  "Elke week dezelfde handelingen: offertes, planningen, mailtjes.
+                  "Elke week hetzelfde: offertes, facturen, planningen, mailtjes.
                   Daar gaat zóveel tijd in zitten."
                 </blockquote>
                 <ul>
                   <li>We kijken samen waar de tijd weglekt</li>
-                  <li>Ik bouw digitale hulpjes (agents) die taken zelfstandig uitvoeren</li>
-                  <li>Van vragen beantwoorden tot gegevens verwerken en acties uitzetten</li>
-                  <li>Jij bepaalt wat ze wel en niet mogen – jij houdt de controle</li>
+                  <li>Ik bouw digitale hulpjes (agents) die dat werk overnemen</li>
+                  <li>Jij bepaalt wat ze mogen – jij houdt de controle</li>
                 </ul>
                 <p className="sol-result">
-                  <strong>Resultaat:</strong> elke week uren terug voor werk dat er
-                  écht toe doet.
+                  <strong>Resultaat:</strong> elke week uren terug voor werk dat
+                  er écht toe doet.
                 </p>
               </div>
 
-              <div className="card solution-card">
+              <div className="card solution-card" id="inzicht">
                 <div className="sol-head">
                   <span className="sol-icon">📊</span>
-                  <h3>Inzicht uit je eigen systemen</h3>
+                  <h3>Je cijfers eindelijk zichtbaar</h3>
                 </div>
                 <blockquote>
-                  "Er zit van alles in onze systemen, maar niemand kan er iets mee.
-                  We beslissen op gevoel."
+                  "Er zit van alles in onze systemen, maar niemand kan er iets
+                  mee. We beslissen op gevoel."
                 </blockquote>
                 <ul>
-                  <li>Ik lees je bestaande systemen uit en haal eruit wat erin zit</li>
+                  <li>Ik lees je bestaande systemen uit</li>
                   <li>Overzichten en dashboards in taal die iedereen snapt</li>
                   <li>Actuele cijfers in plaats van achteraf terugkijken</li>
-                  <li>Sturen op feiten in plaats van op onderbuik</li>
                 </ul>
                 <p className="sol-result">
-                  <strong>Resultaat:</strong> je ziet eindelijk wat er in je bedrijf
-                  gebeurt – en kunt daarop sturen.
+                  <strong>Resultaat:</strong> je ziet wat er in je bedrijf
+                  gebeurt – en stuurt op feiten.
                 </p>
               </div>
 
-              <div className="card solution-card">
+              <div className="card solution-card" id="ai">
                 <div className="sol-head">
                   <span className="sol-icon">💡</span>
                   <h3>AI die bij jouw bedrijf past</h3>
                 </div>
                 <blockquote>
-                  "Iedereen roept AI, maar ik heb geen idee wat er voor ons nuttig is
-                  – en wat gewoon hype is."
+                  "Iedereen roept AI, maar ik heb geen idee wat er voor ons
+                  nuttig is – en wat gewoon hype is."
                 </blockquote>
                 <ul>
-                  <li>We beginnen bij jouw processen, niet bij de tools</li>
+                  <li>We beginnen bij jouw werk, niet bij de tools</li>
                   <li>Ik laat concreet zien waar AI jou tijd of geld oplevert</li>
-                  <li>Eerlijk advies: ook over wat je níet moet doen</li>
-                  <li>Van eerste experiment tot oplossing die dagelijks draait</li>
+                  <li>Eerlijk advies – ook over wat je níet moet doen</li>
                 </ul>
                 <p className="sol-result">
-                  <strong>Resultaat:</strong> AI die echt werk verzet in jouw bedrijf,
-                  geen speeltje.
+                  <strong>Resultaat:</strong> AI die echt werk verzet in jouw
+                  bedrijf, geen speeltje.
                 </p>
               </div>
 
-              <div className="card solution-card">
+              <div className="card solution-card" id="website">
                 <div className="sol-head">
                   <span className="sol-icon">🌐</span>
-                  <h3>Een digitale omgeving van nu</h3>
+                  <h3>Vindbaar voor mensen én AI</h3>
                 </div>
                 <blockquote>
-                  "Onze website en tools stammen uit een andere tijd. Het remt ons
-                  – en klanten zien het ook."
+                  "Onze website stamt uit een andere tijd. Klanten zoeken via
+                  Google en ChatGPT – en vinden ons niet."
                 </blockquote>
                 <ul>
                   <li>Bestaand verbeteren of nieuw bouwen – wat het beste past</li>
-                  <li>Website, klantportaal of interne tools, op maat</li>
-                  <li>Vindbaar voor klanten én voor AI-assistenten zoals ChatGPT</li>
+                  <li>Vindbaar in Google én voor AI-assistenten zoals ChatGPT</li>
                   <li>Zo gebouwd dat je er zelf mee uit de voeten kunt</li>
                 </ul>
                 <p className="sol-result">
-                  <strong>Resultaat:</strong> een digitale omgeving die meewerkt in
-                  plaats van tegenwerkt.
+                  <strong>Resultaat:</strong> een digitale omgeving die klanten
+                  oplevert in plaats van tegenwerkt.
                 </p>
               </div>
 
-              <div className="card solution-card">
+              <div className="card solution-card" id="sparren">
                 <div className="sol-head">
                   <span className="sol-icon">🧭</span>
                   <h3>Een sparringpartner die meedenkt</h3>
                 </div>
                 <blockquote>
-                  "Ik voel dat we digitaal een slag moeten maken, maar ik mis iemand
-                  om het mee door te denken."
+                  "Ik voel dat we digitaal een slag moeten maken, maar ik mis
+                  iemand om het mee door te denken."
                 </blockquote>
                 <ul>
-                  <li>Samen vooruitkijken: waar wil je met je bedrijf naartoe?</li>
+                  <li>Samen vooruitkijken: waar wil je naartoe?</li>
                   <li>Twintig jaar ondernemerservaring aan tafel</li>
                   <li>Een behapbaar plan in kleine stappen, in jouw tempo</li>
-                  <li>Eén aanspreekpunt van idee tot werkende oplossing</li>
                 </ul>
                 <p className="sol-result">
                   <strong>Resultaat:</strong> richting en rust – je weet wat de
@@ -161,29 +154,24 @@ const Oplossingen = () => {
         <section className="section section--soft">
           <div className="container">
             <div className="section-head">
-              <span className="eyebrow">Werkwijze</span>
-              <h2>Zo pakken we het aan</h2>
+              <span className="eyebrow">Zo simpel werkt het</span>
+              <h2>Drie stappen, geen gedoe</h2>
             </div>
-            <div className="steps">
+            <div className="steps steps--three">
               <div className="step">
                 <span className="step-num">1</span>
-                <h3>Jouw vraagstuk op tafel</h3>
-                <p>Gratis kennismaking. Jij vertelt wat er knelt, ik luister en denk direct mee.</p>
+                <h3>Jij vertelt</h3>
+                <p>Wat knelt er? In je eigen woorden. Gratis en vrijblijvend.</p>
               </div>
               <div className="step">
                 <span className="step-num">2</span>
-                <h3>Oplossing in gewone taal</h3>
-                <p>Je hoort precies wat we gaan doen en wat het oplevert. Geen jargon, geen dikke rapporten.</p>
+                <h3>Ik los het op</h3>
+                <p>Ik bedenk en bouw de oplossing – techniek achter de schermen.</p>
               </div>
               <div className="step">
                 <span className="step-num">3</span>
-                <h3>Bouwen en koppelen</h3>
-                <p>Ik bouw en test in kleine stappen met snel resultaat. Techniek achter de schermen.</p>
-              </div>
-              <div className="step">
-                <span className="step-num">4</span>
-                <h3>Jij verder, met grip</h3>
-                <p>Jij en je team kunnen er zelfstandig mee verder. Geen afhankelijkheid.</p>
+                <h3>Jij kunt verder</h3>
+                <p>Snel resultaat, en je team kan er zelfstandig mee werken.</p>
               </div>
             </div>
           </div>
@@ -193,10 +181,10 @@ const Oplossingen = () => {
           <div className="container">
             <h2>Staat jouw vraagstuk er niet bij?</h2>
             <p>
-              Des te beter – nieuwe problemen oplossen is precies waar ik blij van
-              word. Vertel wat er speelt en ik denk gratis met je mee.
+              Des te beter – nieuwe problemen oplossen is precies waar ik blij
+              van word. Vertel wat er speelt en ik denk gratis met je mee.
             </p>
-            <Link to="/contact" className="btn btn-light">Vertel je vraagstuk</Link>
+            <Link to="/contact" className="btn btn-light">Vertel wat er knelt</Link>
           </div>
         </section>
       </div>
