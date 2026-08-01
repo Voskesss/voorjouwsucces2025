@@ -1,5 +1,5 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route, Link, Navigate, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import SEO from './components/seo/SEO'
@@ -11,6 +11,24 @@ import OverMij from './pages/OverMij'
 import Oplossingen from './pages/Oplossingen'
 import Contact from './pages/Contact'
 
+
+// Scrolt bij navigatie naar boven, of naar het anker als er een #id in de URL staat
+function ScrollManager() {
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash.slice(1));
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+    }
+    window.scrollTo(0, 0);
+  }, [pathname, hash]);
+
+  return null;
+}
 
 // 404 Pagina component
 const NotFound = () => (
@@ -31,6 +49,7 @@ function App() {
   return (
     <Router basename={basename}>
       <div className="app">
+        <ScrollManager />
         <Header />
         <main className="main-content">
           <SEO />
