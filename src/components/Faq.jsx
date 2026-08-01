@@ -6,7 +6,11 @@ import React from 'react';
 const faqItems = [
   {
     q: 'Wat doet Voor Jouw Succes precies?',
-    a: 'Ik los digitale problemen op voor bedrijven. Systemen die niet samenwerken, te veel handwerk, geen overzicht, een verouderde website of vragen over AI: jij vertelt wat er knelt, ik bedenk en bouw de oplossing. In gewone taal, zonder technisch verhaal.',
+    a: 'Zie mij als de AI-duizendpoot die jouw bedrijf mist. Systemen die niet samenwerken, te veel handwerk, geen overzicht, een verouderde website of vragen over AI: jij vertelt wat er knelt, ik bedenk en bouw de oplossing. In gewone taal, zonder technisch verhaal.',
+  },
+  {
+    q: 'Zit ik daarna aan je vast?',
+    a: 'Nee, juist niet. Ik maak mezelf misbaar: ik help je op weg en zorg dat jij en je team er zelfstandig mee verder kunnen. Wil je liever dat ik betrokken blijf als vaste partner op de achtergrond? Dat kan ook. Jij kiest, niet ik.',
   },
   {
     q: 'Voor wie werk je?',

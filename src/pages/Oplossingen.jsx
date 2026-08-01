@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/seo/SEO';
+import Icon from '../components/Icons';
 import Voorbeelden from '../components/Voorbeelden';
 
 const Oplossingen = () => {
@@ -30,7 +31,7 @@ const Oplossingen = () => {
 
               <div className="card solution-card" id="koppelen">
                 <div className="sol-head">
-                  <span className="sol-icon">🔗</span>
+                  <span className="sol-icon"><Icon name="link" size={24} /></span>
                   <h3>Systemen die met elkaar praten</h3>
                 </div>
                 <blockquote>
@@ -50,7 +51,7 @@ const Oplossingen = () => {
 
               <div className="card solution-card" id="automatiseren">
                 <div className="sol-head">
-                  <span className="sol-icon">🤖</span>
+                  <span className="sol-icon"><Icon name="workflow" size={24} /></span>
                   <h3>Handwerk dat vanzelf gaat</h3>
                 </div>
                 <blockquote>
@@ -70,7 +71,7 @@ const Oplossingen = () => {
 
               <div className="card solution-card" id="inzicht">
                 <div className="sol-head">
-                  <span className="sol-icon">📊</span>
+                  <span className="sol-icon"><Icon name="chart" size={24} /></span>
                   <h3>Je cijfers eindelijk zichtbaar</h3>
                 </div>
                 <blockquote>
@@ -90,7 +91,7 @@ const Oplossingen = () => {
 
               <div className="card solution-card" id="ai">
                 <div className="sol-head">
-                  <span className="sol-icon">💡</span>
+                  <span className="sol-icon"><Icon name="bulb" size={24} /></span>
                   <h3>AI die bij jouw bedrijf past</h3>
                 </div>
                 <blockquote>
@@ -110,7 +111,7 @@ const Oplossingen = () => {
 
               <div className="card solution-card" id="website">
                 <div className="sol-head">
-                  <span className="sol-icon">🌐</span>
+                  <span className="sol-icon"><Icon name="globe" size={24} /></span>
                   <h3>Vindbaar voor mensen én AI</h3>
                 </div>
                 <blockquote>
@@ -130,7 +131,7 @@ const Oplossingen = () => {
 
               <div className="card solution-card" id="sparren">
                 <div className="sol-head">
-                  <span className="sol-icon">🧭</span>
+                  <span className="sol-icon"><Icon name="compass" size={24} /></span>
                   <h3>Een sparringpartner die meedenkt</h3>
                 </div>
                 <blockquote>

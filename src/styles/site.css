@@ -427,6 +427,89 @@ h3 { font-size: 1.2rem; }
   }
 }
 
+/* Foto's in een nette lijst met gradient-accent */
+.photo-frame {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-tint);
+  box-shadow: var(--shadow-lg);
+}
+
+.photo-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(67, 13, 125, 0.12);
+  pointer-events: none;
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-frame--hero {
+  aspect-ratio: 4 / 4.4;
+}
+
+.photo-frame--portrait {
+  aspect-ratio: 16 / 10;
+  margin-bottom: 1.2rem;
+}
+
+/* Hero-visual: foto met zwevende mini-chat eroverheen */
+.hero-visual {
+  position: relative;
+}
+
+.float-chat {
+  position: absolute;
+  left: -2.2rem;
+  bottom: -1.6rem;
+  width: min(320px, 85%);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.float-chat .bubble {
+  font-size: 0.88rem;
+  padding: 0.65rem 0.9rem;
+}
+
+/* Icon-chips (vervangen emoji) */
+.icon-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: var(--bg-tint);
+  color: var(--purple);
+}
+
+.signature {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin: 0.4rem 0 0.2rem;
+}
+
 /* Chatkaart: vraagstuk → oplossing */
 .chat-card {
   background: #fff;
@@ -697,6 +780,11 @@ a.problem-card {
   color: #fff;
 }
 
+.ex-card--featured .icon-chip {
+  background: var(--gradient);
+  color: #fff;
+}
+
 /* Uitgebreide oplossingskaarten (oplossingen-pagina) */
 
 .solution-card {
@@ -718,9 +806,9 @@ a.problem-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
   border-radius: var(--radius-sm);
   background: var(--bg-tint);
+  color: var(--purple);
 }
 
 .solution-card blockquote {
@@ -1100,6 +1188,16 @@ a.problem-card {
 
   .hero {
     padding: 56px 0 64px;
+  }
+
+  .float-chat {
+    position: static;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .photo-frame--hero {
+    aspect-ratio: 4 / 3;
   }
 
   .hero-actions .btn {

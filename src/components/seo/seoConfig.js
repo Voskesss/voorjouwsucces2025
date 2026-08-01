@@ -5,7 +5,7 @@
 // Basis website informatie
 export const SITE_NAME = 'Voor Jouw Succes';
 export const SITE_URL = 'https://voskesss.github.io/voorjouwsucces2025';
-export const SITE_DESCRIPTION = 'Voor Jouw Succes helpt bedrijven - klein en groot - vooruit in hun digitale omgeving. AI-oplossingen bedenken, systemen koppelen en uitlezen, agents bouwen: altijd vanuit jouw vraagstuk, in gewone taal.';
+export const SITE_DESCRIPTION = 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot: AI-oplossingen, koppelingen, automatisering en websites. Jos Klijnhout helpt je op weg zodat je zelf verder kunt - of blijft je vaste partner.';
 export const SITE_KEYWORDS = 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, API koppelingen, systemen uitlezen, agents bouwen, automatisering, sparringpartner ondernemers';
 export const SITE_AUTHOR = 'Jos Klijnhout';
 export const SITE_LANGUAGE = 'nl';
@@ -58,8 +58,8 @@ export const getPersonSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Person',
   'name': SITE_AUTHOR,
-  'jobTitle': 'Oplossingsdenker en sparringpartner voor ondernemers',
-  'description': 'Oplossingen bedenken is mijn ding, mensen helpen is mijn drive. Ik help ondernemers hun bedrijf klaar te maken voor het nieuwe decennium.',
+  'jobTitle': 'AI-duizendpoot voor bedrijven: oplossingsdenker, bouwer en sparringpartner',
+  'description': 'Oplossingen bedenken is mijn ding, mensen helpen is mijn drive. Als AI-duizendpoot help ik bedrijven op weg zodat ze zelfstandig verder kunnen - of ik blijf als vaste partner betrokken.',
   'url': SITE_URL,
   'sameAs': Object.values(SOCIAL_MEDIA).filter(Boolean),
   'worksFor': {
