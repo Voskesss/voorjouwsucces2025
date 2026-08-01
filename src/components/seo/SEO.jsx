@@ -5,8 +5,8 @@ import { useLocation } from 'react-router-dom';
 const seoConfig = {
   // Startpagina
   '/': {
-    title: 'Voor Jouw Succes - Jouw Probleem Eerst, De Techniek Volgt',
-    description: 'Voor Jouw Succes helpt bedrijven - klein en groot - vooruit in hun digitale omgeving. AI-oplossingen bedenken, systemen koppelen en uitlezen, agents bouwen: altijd vanuit jouw vraagstuk, in gewone taal.',
+    title: 'Voor Jouw Succes - De AI-duizendpoot die jouw bedrijf mist',
+    description: 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot: AI-oplossingen, koppelingen, automatisering en websites. Jos helpt je op weg zodat je zelf verder kunt - of blijft je vaste partner.',
     keywords: 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, agents bouwen, automatisering, oplossingen bedenken',
     ogImage: '/images/logo-nieuw.png',
   },
@@ -35,9 +35,9 @@ const seoConfig = {
 
 // Standaard SEO-configuratie als fallback
 const defaultSeo = {
-  title: 'Voor Jouw Succes - Jouw Bedrijf Klaar voor het Nieuwe Decennium',
-  description: 'Voor Jouw Succes helpt ondernemers hun bedrijf klaar te maken voor het nieuwe decennium. Oplossingen in gewone taal, zonder technisch verhaal.',
-  keywords: 'voor jouw succes, ondernemers helpen, oplossingen bedenken, bedrijf moderniseren, AI vindbaarheid',
+  title: 'Voor Jouw Succes - De AI-duizendpoot die jouw bedrijf mist',
+  description: 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot. Digitale problemen opgelost in gewone taal, zonder technisch verhaal.',
+  keywords: 'voor jouw succes, AI duizendpoot, digitale oplossingen MKB, oplossingen bedenken, automatisering',
   ogImage: '/images/logo-nieuw.png',
   siteUrl: 'https://voskesss.github.io/voorjouwsucces2025',
 };

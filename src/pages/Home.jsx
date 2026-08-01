@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Faq from '../components/Faq';
 import Voorbeelden from '../components/Voorbeelden';
+import Icon from '../components/Icons';
 
 const problemChips = [
   { label: 'Systemen werken niet samen', to: '/oplossingen#koppelen' },
@@ -21,13 +22,14 @@ function Home() {
           <div className="hero-text">
             <span className="eyebrow">Voor bedrijven, klein én groot</span>
             <h1>
-              Digitaal gedoe?<br />
-              <span className="accent">Ik los het op.</span>
+              De AI-duizendpoot<br />
+              <span className="accent">die jouw bedrijf mist.</span>
             </h1>
             <p className="hero-lede">
-              Ik ben Jos. Bedrijven bellen mij als er iets opgelost moet worden
-              in hun digitale omgeving. Jij vertelt wat er knelt – ik regel de
-              rest. In gewone taal.
+              Ik ben Jos Klijnhout. Ik regel alles wat digitaal moet gebeuren in
+              jouw bedrijf – van slimme AI en koppelingen tot je website. Ik help
+              je op weg zodat je zelf verder kunt, of ik blijf gewoon je vaste
+              partner. Jij kiest.
             </p>
             <div className="hero-actions">
               <Link to="/contact" className="btn btn-primary">Vertel wat er knelt</Link>
@@ -42,24 +44,23 @@ function Home() {
             </div>
           </div>
 
-          <div className="chat-card" aria-hidden="true">
-            <span className="chat-title">Zo begint het meestal</span>
-            <div className="bubble bubble--them">
-              <span className="who">Ondernemer</span>
-              Onze systemen praten niet met elkaar. We typen alles twee keer over…
+          <div className="hero-visual">
+            <div className="photo-frame photo-frame--hero">
+              <img
+                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+                alt="In gesprek aan tafel over wat er beter kan in het bedrijf"
+                loading="eager"
+              />
             </div>
-            <div className="bubble bubble--us">
-              <span className="who">Jos</span>
-              Herkenbaar – en oplosbaar. Zonder alles te hoeven vervangen.
-              Zal ik laten zien hoe?
-            </div>
-            <div className="bubble bubble--them">
-              <span className="who">Ondernemer</span>
-              Graag. Maar ik ben geen techneut hè.
-            </div>
-            <div className="bubble bubble--us">
-              <span className="who">Jos</span>
-              Hoeft ook niet. Dat ben ik voor jou. 😉
+            <div className="float-chat" aria-hidden="true">
+              <div className="bubble bubble--them">
+                <span className="who">Ondernemer</span>
+                Onze systemen praten niet met elkaar…
+              </div>
+              <div className="bubble bubble--us">
+                <span className="who">Jos</span>
+                Herkenbaar – en oplosbaar. Zal ik laten zien hoe?
+              </div>
             </div>
           </div>
         </div>
@@ -134,10 +135,10 @@ function Home() {
             </div>
             <div className="step">
               <span className="step-num">3</span>
-              <h3>Jij kunt verder</h3>
+              <h3>Jij kiest hoe verder</h3>
               <p>
-                Snel resultaat, en jij en je team kunnen er zelf mee werken.
-                Geen afhankelijkheid.
+                Zelfstandig verder met wat ik je heb aangereikt, of ik blijf je
+                vaste partner. Allebei prima.
               </p>
             </div>
           </div>
@@ -150,42 +151,54 @@ function Home() {
         <div className="container">
           <div className="about-text">
             <span className="eyebrow">Wie je aan tafel krijgt</span>
-            <h2>Oplossingen bedenken is mijn ding, mensen helpen is mijn drive</h2>
+            <h2>Geen bureau. Gewoon Jos.</h2>
             <p>
-              Twintig jaar ondernemer, altijd de persoon die gebeld wordt als er
-              iets opgelost moet worden. De afgelopen jaren volledig gedoken in
-              wat er nu kan met AI en slimme koppelingen – niet als hype, maar
-              als gereedschap voor échte problemen.
+              Bij mij krijg je geen accountmanager, geen ticketsysteem en geen
+              wisselende gezichten. Je belt of appt met mij – degene die het ook
+              écht bouwt. Twintig jaar ondernemer, dus ik weet hoe jouw week
+              eruitziet en dat het aan het eind van de maand moet kloppen.
             </p>
             <p>
-              <strong>Mijn belofte:</strong> eerlijk advies in gewone taal.
-              Als je iets niet nodig hebt, zeg ik dat gewoon.
+              En dit vind ik zelf het belangrijkste: <strong>ik maak mezelf
+              misbaar</strong>. Ik help je op weg zodat jij en je team er
+              zelfstandig mee verder kunnen. Wil je liever dat ik betrokken
+              blijf als vaste partner? Ook prima. Jij kiest, niet ik.
             </p>
+            <p className="signature">— Jos</p>
             <Link to="/over-mij" className="read-more">Lees mijn verhaal →</Link>
           </div>
-          <ul className="value-list">
-            <li>
-              <span className="v-icon">🗣️</span>
-              <div>
-                <h3>Gewone taal</h3>
-                <p>Je hoeft niets van techniek te weten. Dat is mijn werk, niet het jouwe.</p>
-              </div>
-            </li>
-            <li>
-              <span className="v-icon">🪜</span>
-              <div>
-                <h3>Klein beginnen</h3>
-                <p>Snel resultaat, in jouw tempo verder. Geen trajecten van een half jaar.</p>
-              </div>
-            </li>
-            <li>
-              <span className="v-icon">🤝</span>
-              <div>
-                <h3>Eén aanspreekpunt</h3>
-                <p>Van idee tot werkende oplossing – je hoeft nooit met een techneut te schakelen.</p>
-              </div>
-            </li>
-          </ul>
+          <div className="about-side">
+            <div className="photo-frame photo-frame--portrait">
+              <img
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80"
+                alt="Samen aan tafel: meedenken en meteen aanpakken"
+                loading="lazy"
+              />
+            </div>
+            <ul className="value-list">
+              <li>
+                <span className="icon-chip"><Icon name="chat" /></span>
+                <div>
+                  <h3>Gewone taal</h3>
+                  <p>Je hoeft niets van techniek te weten. Dat is mijn werk, niet het jouwe.</p>
+                </div>
+              </li>
+              <li>
+                <span className="icon-chip"><Icon name="steps" /></span>
+                <div>
+                  <h3>Klein beginnen</h3>
+                  <p>Snel resultaat, in jouw tempo verder. Geen trajecten van een half jaar.</p>
+                </div>
+              </li>
+              <li>
+                <span className="icon-chip"><Icon name="user" /></span>
+                <div>
+                  <h3>Eén aanspreekpunt</h3>
+                  <p>Van idee tot werkende oplossing – je schakelt altijd met mij.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 

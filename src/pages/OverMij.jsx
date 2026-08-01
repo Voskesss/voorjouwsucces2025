@@ -7,11 +7,12 @@ function OverMij() {
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">Over Jos</span>
-          <h1>Oplossingen bedenken is mijn ding, mensen helpen is mijn drive</h1>
+          <h1>De AI-duizendpoot die jouw bedrijf mist</h1>
           <p>
-            Ik ben Jos Klijnhout. Al mijn hele werkende leven ben ik de persoon
-            die gebeld wordt als er iets opgelost moet worden – en dat is precies
-            wat ik het liefste doe.
+            Ik ben Jos Klijnhout. Oplossingen bedenken is mijn ding, mensen
+            helpen is mijn drive. Al mijn hele werkende leven ben ik de persoon
+            die gebeld wordt als er iets opgelost moet worden – en dat is
+            precies wat ik het liefste doe.
           </p>
         </div>
       </section>
@@ -52,6 +53,22 @@ function OverMij() {
               Daarom hoor je mij niet over technologieën die toevallig in de mode
               zijn. Als een simpele aanpassing je probleem oplost, adviseer ik
               een simpele aanpassing.
+            </p>
+
+            <h2>Op weg geholpen – of partner voor de lange termijn</h2>
+            <p>
+              Waarom een duizendpoot? Omdat de meeste bedrijven niet één digitaal
+              probleem hebben, maar tien kleine: een koppeling hier, wat handwerk
+              daar, een website die achterloopt, vragen over AI. Te klein voor
+              een groot bureau, te veel om te blijven liggen. Precies dat gat
+              vul ik in – één iemand die het allemaal kan oppakken.
+            </p>
+            <p>
+              <strong>En ik maak mezelf misbaar.</strong> Ik help je op weg en
+              zorg dat jij en je team er zelfstandig mee verder kunnen – dat is
+              mijn doel, niet een abonnement. Wil je liever dat ik als vaste
+              partner op de achtergrond betrokken blijf? Ook prima. Jij kiest,
+              niet ik.
             </p>
 
             <h2>Voor wie ik werk</h2>
