@@ -1,105 +1,52 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import '../styles/NewDesign.css';
-import logoNieuw from '../assets/images/logo-nieuw.png';
+import logo from '../assets/images/logo-nieuw.png';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Effect voor het detecteren van scrollen
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Effect voor het vergrendelen van de body scroll wanneer mobiel menu open is
   useEffect(() => {
-    if (isNavOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-
+    document.body.style.overflow = isNavOpen ? 'hidden' : '';
     return () => {
       document.body.style.overflow = '';
     };
   }, [isNavOpen]);
 
-  const toggleNav = () => {
-    setIsNavOpen(!isNavOpen);
-  };
+  const closeNav = () => setIsNavOpen(false);
 
-  // Helper functie om navigatie te sluiten na klikken op een link
-  const closeNav = () => {
-    setIsNavOpen(false);
-  };
+  const navLinkClass = ({ isActive }) => (isActive ? 'active' : '');
 
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="header-container">
-        <div className="logo-container">
-          <Link to="/" onClick={closeNav} className="logo-link">
-            <img src={logoNieuw} alt="Voor Jouw Succes Logo" className="logo" />
-          </Link>
-        </div>
-        
-        <button className="mobile-nav-toggle" onClick={toggleNav} aria-label="Toggle menu">
-          <span className={`hamburger ${isNavOpen ? 'open' : ''}`}></span>
+    <header className={`site-header ${isScrolled ? 'scrolled' : ''}`}>
+      <div className="container">
+        <Link to="/" onClick={closeNav} className="site-logo">
+          <img src={logo} alt="Voor Jouw Succes" />
+        </Link>
+
+        <button
+          className={`nav-toggle ${isNavOpen ? 'open' : ''}`}
+          onClick={() => setIsNavOpen(!isNavOpen)}
+          aria-label="Menu openen of sluiten"
+          aria-expanded={isNavOpen}
+        >
+          <span></span>
         </button>
 
-        {/* Overlay voor mobiel menu */}
-        {isNavOpen && (
-          <div className={`mobile-nav-overlay ${isNavOpen ? 'open' : ''}`} onClick={closeNav}></div>
-        )}
+        {isNavOpen && <div className="nav-overlay" onClick={closeNav}></div>}
 
-        <nav className={`nav ${isNavOpen ? 'open' : ''}`}>
-          <ul className="nav-list">
-            <li className="nav-item">
-              <NavLink to="/" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/over-mij" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Over Mij
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/diensten" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Diensten
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/ai-implementatie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                AI Oplossingen
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/procesoptimalisatie" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Optimalisatie
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/praktische-info" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Info
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/contact" onClick={closeNav} className={({ isActive }) => isActive ? 'active' : ''}>
-                Contact
-              </NavLink>
-            </li>
+        <nav className={`site-nav ${isNavOpen ? 'open' : ''}`}>
+          <ul>
+            <li><NavLink to="/" end onClick={closeNav} className={navLinkClass}>Home</NavLink></li>
+            <li><NavLink to="/oplossingen" onClick={closeNav} className={navLinkClass}>Oplossingen</NavLink></li>
+            <li><NavLink to="/over-mij" onClick={closeNav} className={navLinkClass}>Over Jos</NavLink></li>
+            <li className="nav-cta"><NavLink to="/contact" onClick={closeNav}>Vertel je vraagstuk</NavLink></li>
           </ul>
         </nav>
       </div>

@@ -1,122 +1,100 @@
 import React from "react";
-import "../styles/OverMij.css";
+import { Link } from "react-router-dom";
 
 function OverMij() {
   return (
     <div className="over-mij-page">
-      <section className="hero-section">
+      <section className="page-hero">
         <div className="container">
-          <h1>Over Jos</h1>
-          <div className="hero-content">
-            <div className="hero-text">
-              <p className="intro-text">
-                Mijn naam is Jos Klijnhout. Na 20 jaar ervaring in facility management als medeeigenaar van Infacilities en TFM, heb ik mijn passie gevonden in het ondersteunen van maatschappelijke organisaties. Door mijn achtergrond als ondernemer, coaching opleiding en 2 jaar AI-programmeren, help ik organisaties efficiënter en effectiever te worden.
-              </p>
-            </div>
-          </div>
+          <span className="eyebrow">Over Jos</span>
+          <h1>Oplossingen bedenken is mijn ding, mensen helpen is mijn drive</h1>
+          <p>
+            Ik ben Jos Klijnhout. Al mijn hele werkende leven ben ik de persoon
+            die gebeld wordt als er iets opgelost moet worden – en dat is precies
+            wat ik het liefste doe.
+          </p>
         </div>
       </section>
 
-      <section className="mission-section">
+      <section className="section">
         <div className="container">
-          <div className="mission-content">
-            <div className="mission-text">
-              <h2>Mijn visie</h2>
-              <p>
-                Ik geloof dat maatschappelijke organisaties een cruciale rol spelen in onze samenleving. Deze organisaties verdienen de beste ondersteuning om hun missie te kunnen vervullen. Met mijn ondernemerservaring en technische kennis help ik hen processen te optimaliseren en AI-technologie slim in te zetten.
-              </p>
-              <p>
-                Mijn aanpak is praktisch en resultaatgericht. Ik werk graag samen met teams om werkprocessen niet alleen efficiënter, maar ook leuker te maken. Door de juiste combinatie van coaching, procesoptimalisatie en AI-implementatie kunnen organisaties meer impact maken met minder middelen.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="background-section">
-        <div className="container">
-          <h2>Mijn achtergrond</h2>
-          <div className="background-content">
+          <div className="prose">
+            <h2>Waar ik vandaan kom</h2>
             <p>
-              Mijn ondernemersreis begon 20 jaar geleden in de facility management sector. Als medeeigenaar van Infacilities en TFM heb ik geleerd hoe belangrijk efficiënte processen en goede samenwerking zijn voor het succes van een organisatie.
+              Ruim twintig jaar was ik ondernemer in de facilitaire wereld, als
+              medeeigenaar van Infacilities en TFM. Daar leerde ik wat elke
+              ondernemer kent: personeel, klanten, processen – en aan het eind
+              van de maand moet het kloppen. En daar ontdekte ik ook mijn rol:
+              als er ergens een probleem lag, kwam het vanzelf op mijn bord.
+              Niet omdat het moest, maar omdat ik het niet kan láten om
+              oplossingen te bedenken.
             </p>
             <p>
-              Naast mijn ondernemerservaring heb ik me ontwikkeld als coach en heb ik de afgelopen 2 jaar intensief gewerkt met AI-technologie. Deze unieke combinatie stelt me in staat organisaties op meerdere niveaus te ondersteunen.
+              Daarna heb ik jarenlang bedrijven geholpen met hun websites en
+              digitale omgeving. Mooi werk, maar ik zag het veranderen: een
+              website alleen is niet meer genoeg. De afgelopen jaren heb ik me
+              daarom volledig gestort op wat er nú mogelijk is – AI, slimme
+              koppelingen tussen systemen, agents die werk uit handen nemen.
+              Niet als hype, maar als gereedschap.
             </p>
-          </div>
-        </div>
-      </section>
 
-      <section className="expertise-section">
-        <div className="container">
-          <h2>Mijn expertise</h2>
-          <div className="expertise-grid">
-            <div className="expertise-item">
-              <h3>🏢 Ondernemerschap</h3>
-              <p>20 jaar ervaring als medeeigenaar van succesvolle facility management bedrijven</p>
-            </div>
-            <div className="expertise-item">
-              <h3>👥 Coaching</h3>
-              <p>Professionele coaching opleiding voor team- en individuele ontwikkeling</p>
-            </div>
-            <div className="expertise-item">
-              <h3>🤖 AI-technologie</h3>
-              <p>2 jaar intensieve ervaring met AI-programmering en implementatie</p>
-            </div>
-            <div className="expertise-item">
-              <h3>⚙️ Procesoptimalisatie</h3>
-              <p>Werkprocessen efficiënter en leuker maken door slimme aanpassingen</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="approach-section">
-        <div className="container">
-          <h2>Mijn aanpak</h2>
-          <div className="approach-content">
+            <h2>Hoe ik naar techniek kijk</h2>
             <p>
-              Ik werk graag samen met organisaties die maatschappelijke impact willen maken. Mijn aanpak is altijd praktisch en gericht op concrete resultaten. Door mijn ondernemerservaring begrijp ik de uitdagingen waar organisaties mee te maken hebben.
+              Ik begin nooit bij techniek, altijd bij de vraag. Wat knelt er?
+              Wat kost tijd, geld of energie? Waar wil je naartoe? Pas als dat
+              helder is, komt het gereedschap op tafel – en dat kan van alles
+              zijn: een koppeling tussen je systemen, een agent die taken
+              overneemt, een dashboard dat eindelijk laat zien wat er in je
+              bedrijf gebeurt, of een digitale omgeving die weer van deze tijd is.
             </p>
             <p>
-              Voor maatschappelijke organisaties bied ik mijn diensten aan tegen gereduceerde tarieven. Ik geloof dat deze organisaties de beste ondersteuning verdienen om hun belangrijke werk te kunnen doen.
+              <strong>Het middel volgt uit jouw vraag, nooit andersom.</strong>{" "}
+              Daarom hoor je mij niet over technologieën die toevallig in de mode
+              zijn. Als een simpele aanpassing je probleem oplost, adviseer ik
+              een simpele aanpassing.
             </p>
-          </div>
-        </div>
-      </section>
 
-      <section className="values-section">
-        <div className="container">
-          <h2>Mijn waarden</h2>
-          <div className="values-grid">
-            <div className="value-item">
-              <h3>Maatschappelijke impact</h3>
-              <p>Bijdragen aan een betere samenleving door organisaties te helpen die er toe doen</p>
-            </div>
-            <div className="value-item">
-              <h3>Praktische resultaten</h3>
-              <p>Concrete verbeteringen die direct merkbaar zijn in het dagelijks werk</p>
-            </div>
-            <div className="value-item">
-              <h3>Samenwerking</h3>
-              <p>Samen werken aan oplossingen, niet van buitenaf opleggen</p>
-            </div>
-            <div className="value-item">
-              <h3>Betaalbaarheid</h3>
-              <p>Kwaliteit moet toegankelijk zijn voor maatschappelijke organisaties</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="closing-section">
-        <div className="container">
-          <div className="closing-content">
-            <h2>Mijn uitnodiging aan jou</h2>
+            <h2>Voor wie ik werk</h2>
             <p>
-              Je bent van harte welkom bij Voor Jouw Succes. Of je nu worstelt met uitdagingen in je organisatie, of simpelweg op zoek bent naar meer efficiëntie en impact - ik nodig je uit om samen te ontdekken wat jou kan helpen om je doelen te bereiken.
+              Voor bedrijven, klein en groot. Van de zzp'er die verzuipt in
+              administratie tot de MKB-organisatie waar systemen niet met elkaar
+              praten. Wat mijn klanten gemeen hebben: ze willen vooruit in hun
+              digitale omgeving, maar zitten niet te wachten op een technisch
+              verhaal. Die vertaling – van jouw vraag naar een werkende
+              oplossing – is precies mijn vak.
+            </p>
+
+            <h2>Waar ik voor sta</h2>
+            <p>
+              <strong>Mensen eerst.</strong> Techniek is gereedschap; het gaat om
+              jou, je team en je klanten.
+            </p>
+            <p>
+              <strong>Eerlijk advies.</strong> Als iets niet slim of niet nodig
+              is, zeg ik dat gewoon – ook als me dat een opdracht kost.
+            </p>
+            <p>
+              <strong>Behapbare stappen.</strong> Klein beginnen, snel resultaat,
+              en in jouw tempo verder bouwen. Geen dikke rapporten, geen
+              trajecten van een half jaar.
+            </p>
+            <p>
+              <strong>Gewone taal.</strong> Je hoeft niets van techniek te weten
+              om met mij te kunnen werken. Dat is mijn werk, niet het jouwe.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="cta-band">
+        <div className="container">
+          <h2>De koffie staat klaar</h2>
+          <p>
+            Loop je ergens tegenaan, of voel je gewoon dat je bedrijf digitaal
+            een slag moet maken? Vertel me je verhaal. Ik luister, denk mee en
+            je krijgt altijd minstens één idee waar je meteen wat aan hebt.
+          </p>
+          <Link to="/contact" className="btn btn-light">Plan een gratis kennismaking</Link>
         </div>
       </section>
     </div>

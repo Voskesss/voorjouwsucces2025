@@ -5,61 +5,40 @@ import { useLocation } from 'react-router-dom';
 const seoConfig = {
   // Startpagina
   '/': {
-    title: 'Voor Jouw Succes - Coaching en Begeleiding voor Ondernemers',
-    description: 'Welkom bij Voor Jouw Succes - Professionele coaching en begeleiding voor ondernemers die willen groeien en hun doelen willen bereiken.',
-    keywords: 'voor jouw succes, coaching, ondernemerscoaching, begeleiding, business coaching, groei, ondernemers',
-    ogImage: '/images/home-hero.jpg',
+    title: 'Voor Jouw Succes - Jouw Probleem Eerst, De Techniek Volgt',
+    description: 'Voor Jouw Succes helpt bedrijven - klein en groot - vooruit in hun digitale omgeving. AI-oplossingen bedenken, systemen koppelen en uitlezen, agents bouwen: altijd vanuit jouw vraagstuk, in gewone taal.',
+    keywords: 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, agents bouwen, automatisering, oplossingen bedenken',
+    ogImage: '/images/logo-nieuw.png',
   },
   // Over mij pagina
   '/over-mij': {
-    title: 'Over Mij - Jouw Coach voor Ondernemerssucces | Voor Jouw Succes',
-    description: 'Maak kennis met de coach achter Voor Jouw Succes. Persoonlijke begeleiding voor ondernemers die willen groeien en hun doelen willen bereiken.',
-    keywords: 'over mij, coach, ondernemerscoach, voor jouw succes, persoonlijke groei, ondernemerschap',
-    ogImage: '/images/over-mij.jpg',
+    title: 'Over Jos - Oplossingen Bedenken is Mijn Ding | Voor Jouw Succes',
+    description: 'Maak kennis met Jos Klijnhout: twintig jaar ondernemer, oplossingsdenker en de persoon die je belt als er iets opgelost moet worden. Mensen helpen is zijn drive.',
+    keywords: 'Jos Klijnhout, over jos, oplossingsdenker, sparringpartner ondernemers, voor jouw succes',
+    ogImage: '/images/logo-nieuw.png',
   },
-  // Diensten pagina
-  '/diensten': {
-    title: 'Diensten - Coaching en Begeleiding op Maat | Voor Jouw Succes',
-    description: 'Ontdek de verschillende coaching en begeleidingsdiensten van Voor Jouw Succes. Op maat gemaakte trajecten voor jouw specifieke situatie.',
-    keywords: 'diensten, coaching, begeleiding, ondernemerscoaching, business coaching, voor jouw succes',
-    ogImage: '/images/diensten.jpg',
-  },
-  // AI Implementatie pagina
-  '/ai-implementatie': {
-    title: 'AI-Implementatie voor Maatschappelijke Organisaties | Voor Jouw Succes',
-    description: 'Specialistische begeleiding bij het implementeren van AI in maatschappelijke organisaties. Ontdek hoe AI jouw organisatie kan versterken.',
-    keywords: 'AI implementatie, kunstmatige intelligentie, maatschappelijke organisaties, digitale transformatie, voor jouw succes',
-    ogImage: '/images/ai-implementatie.jpg',
-  },
-  // Procesoptimalisatie pagina
-  '/procesoptimalisatie': {
-    title: 'Procesoptimalisatie - Efficiënter Werken | Voor Jouw Succes',
-    description: 'Optimaliseer je bedrijfsprocessen en werk efficiënter met de begeleiding van Voor Jouw Succes. Verhoog je productiviteit en verlaag kosten.',
-    keywords: 'procesoptimalisatie, efficiënter werken, bedrijfsprocessen, workflow, productiviteit, voor jouw succes',
-    ogImage: '/images/procesoptimalisatie.jpg',
+  // Oplossingen pagina
+  '/oplossingen': {
+    title: 'Oplossingen - Begin bij het Probleem, Niet bij de Techniek | Voor Jouw Succes',
+    description: 'Digitale oplossingen vanuit jouw vraagstuk: systemen die met elkaar praten, agents die werk uit handen nemen, inzicht uit je eigen data en AI die bij jouw bedrijf past.',
+    keywords: 'oplossingen MKB, systemen koppelen, API koppelingen, agents bouwen, systemen uitlezen, AI implementatie, voor jouw succes',
+    ogImage: '/images/logo-nieuw.png',
   },
   // Contact pagina
   '/contact': {
-    title: 'Contact - Neem Contact Op | Voor Jouw Succes',
-    description: 'Neem contact op met Voor Jouw Succes voor meer informatie over coaching en begeleiding. Samen werken we aan jouw succes.',
-    keywords: 'contact, afspraak maken, voor jouw succes, coaching, begeleiding, ondernemerscoaching',
-    ogImage: '/images/contact.jpg',
-  },
-  // Praktische informatie pagina
-  '/praktische-info': {
-    title: 'Praktische Informatie - Werkwijze & Tarieven | Voor Jouw Succes',
-    description: 'Praktische informatie over Voor Jouw Succes. Werkwijze, tarieven en alles wat je moet weten voordat we samen aan de slag gaan.',
-    keywords: 'praktische informatie, werkwijze, tarieven, coaching, voor jouw succes',
-    ogImage: '/images/praktische-info.jpg',
+    title: 'Contact - Vertel Me Je Verhaal | Voor Jouw Succes',
+    description: 'Vertel Jos waar je tegenaan loopt. Een kennismakingsgesprek is gratis en vrijblijvend, en je krijgt altijd minstens één idee waar je meteen wat aan hebt.',
+    keywords: 'contact, kennismaking, gratis gesprek, voor jouw succes, jos klijnhout',
+    ogImage: '/images/logo-nieuw.png',
   },
 };
 
 // Standaard SEO-configuratie als fallback
 const defaultSeo = {
-  title: 'Voor Jouw Succes - Coaching en Begeleiding voor Ondernemers',
-  description: 'Voor Jouw Succes biedt professionele coaching en begeleiding voor ondernemers die willen groeien en hun doelen willen bereiken.',
-  keywords: 'voor jouw succes, coaching, ondernemerscoaching, begeleiding, business coaching, groei, ondernemers',
-  ogImage: '/images/home-hero.jpg',
+  title: 'Voor Jouw Succes - Jouw Bedrijf Klaar voor het Nieuwe Decennium',
+  description: 'Voor Jouw Succes helpt ondernemers hun bedrijf klaar te maken voor het nieuwe decennium. Oplossingen in gewone taal, zonder technisch verhaal.',
+  keywords: 'voor jouw succes, ondernemers helpen, oplossingen bedenken, bedrijf moderniseren, AI vindbaarheid',
+  ogImage: '/images/logo-nieuw.png',
   siteUrl: 'https://voskesss.github.io/voorjouwsucces2025',
 };
 

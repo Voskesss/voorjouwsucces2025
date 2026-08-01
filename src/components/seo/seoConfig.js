@@ -5,8 +5,8 @@
 // Basis website informatie
 export const SITE_NAME = 'Voor Jouw Succes';
 export const SITE_URL = 'https://voskesss.github.io/voorjouwsucces2025';
-export const SITE_DESCRIPTION = 'AI-gedreven organisatieontwikkeling voor maatschappelijke organisaties. Samen bouwen aan efficiëntere processen, betere teams en meer impact met praktische AI-oplossingen.';
-export const SITE_KEYWORDS = 'AI implementatie, maatschappelijke organisaties, procesoptimalisatie, organisatieontwikkeling, coaching, non-profit, AI-oplossingen, teamontwikkeling, projectbegeleiding, facility management, digitale transformatie';
+export const SITE_DESCRIPTION = 'Voor Jouw Succes helpt bedrijven - klein en groot - vooruit in hun digitale omgeving. AI-oplossingen bedenken, systemen koppelen en uitlezen, agents bouwen: altijd vanuit jouw vraagstuk, in gewone taal.';
+export const SITE_KEYWORDS = 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, API koppelingen, systemen uitlezen, agents bouwen, automatisering, sparringpartner ondernemers';
 export const SITE_AUTHOR = 'Jos Klijnhout';
 export const SITE_LANGUAGE = 'nl';
 
@@ -14,7 +14,7 @@ export const SITE_LANGUAGE = 'nl';
 export const SOCIAL_MEDIA = {
   facebook: '',  // Vul aan indien beschikbaar
   instagram: '', // Vul aan indien beschikbaar
-  linkedin: '',  // Vul aan indien beschikbaar
+  linkedin: 'https://www.linkedin.com/in/josklijnhout/',
 };
 
 // Structured data (JSON-LD) voor lokaal bedrijf
@@ -23,17 +23,23 @@ export const getLocalBusinessSchema = () => ({
   '@type': 'ProfessionalService',
   'name': SITE_NAME,
   'description': SITE_DESCRIPTION,
-  'image': `${SITE_URL}/images/logo.png`,
+  'image': `${SITE_URL}/images/logo-nieuw.png`,
   'url': SITE_URL,
-  'telephone': '06-12345678', // Vervang door het juiste telefoonnummer
+  'email': 'info@voorjouwsucces.nl',
   'address': {
     '@type': 'PostalAddress',
     'addressLocality': 'Nederland',
     'addressCountry': 'NL'
   },
-  'serviceType': ['AI Implementatie', 'Organisatieontwikkeling', 'Procesoptimalisatie', 'Coaching'],
+  'serviceType': [
+    'AI-oplossingen op maat',
+    'Systemen koppelen (API-verbindingen)',
+    'Systemen uitlezen en inzicht',
+    'Agents en automatisering',
+    'Digitale omgeving vernieuwen',
+    'Sparringpartner voor ondernemers'
+  ],
   'areaServed': 'Nederland',
-  'priceRange': '€€',
   'sameAs': Object.values(SOCIAL_MEDIA).filter(Boolean)
 });
 
@@ -44,12 +50,7 @@ export const getWebsiteSchema = () => ({
   'url': SITE_URL,
   'name': SITE_NAME,
   'description': SITE_DESCRIPTION,
-  'inLanguage': SITE_LANGUAGE,
-  'potentialAction': {
-    '@type': 'SearchAction',
-    'target': `${SITE_URL}/zoeken?q={search_term_string}`,
-    'query-input': 'required name=search_term_string'
-  }
+  'inLanguage': SITE_LANGUAGE
 });
 
 // Structured data (JSON-LD) voor een persoon (Jos Klijnhout)
@@ -57,9 +58,8 @@ export const getPersonSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Person',
   'name': SITE_AUTHOR,
-  'jobTitle': 'AI Implementatie Specialist',
-  'description': 'AI implementatie specialist met focus op maatschappelijke organisaties',
-  'image': `${SITE_URL}/images/Jos Klijnhout.jpg`,
+  'jobTitle': 'Oplossingsdenker en sparringpartner voor ondernemers',
+  'description': 'Oplossingen bedenken is mijn ding, mensen helpen is mijn drive. Ik help ondernemers hun bedrijf klaar te maken voor het nieuwe decennium.',
   'url': SITE_URL,
   'sameAs': Object.values(SOCIAL_MEDIA).filter(Boolean),
   'worksFor': {

@@ -1,45 +1,47 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/NewDesign.css';
-import logoNieuw from '../assets/images/logo-nieuw.png';
+import logo from '../assets/images/logo-nieuw.png';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="footer">
-      <div className="footer-container">
-        <div className="footer-info">
-          <Link to="/">
-            <img src={logoNieuw} alt="Voor Jouw Succes Logo" className="footer-logo" />
-          </Link>
-          <p>Voor Jouw Succes begeleidt ondernemers en organisaties naar authentiek succes door het Complete Succes Framework. Van coaching tot procesoptimalisatie en AI-implementatie - een holistische aanpak voor duurzame transformatie.</p>
-        </div>
-        
-        <div className="footer-links">
-          <h3>Snelle Links</h3>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/over-mij">Over Mij</Link></li>
-            <li><Link to="/diensten">Diensten</Link></li>
-            <li><Link to="/ai-implementatie">AI-Implementatie</Link></li>
-            <li><Link to="/procesoptimalisatie">Procesoptimalisatie</Link></li>
-            <li><Link to="/praktische-info">Praktische Info</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </div>
-        
-        <div className="footer-contact">
-          <h3>Contact</h3>
-          <p>Email: info@voorjouwsucces.nl</p>
-          <p>Telefoon: 06-12345678</p>
-          <p>Adres: Kantoor aan huis</p>
-          <p>KvK: 12345678</p>
+    <footer className="site-footer">
+      <div className="container">
+        <div className="footer-grid">
+          <div>
+            <Link to="/">
+              <img src={logo} alt="Voor Jouw Succes" className="footer-logo" />
+            </Link>
+            <p>
+              Voor Jouw Succes helpt bedrijven – klein en groot – vooruit in hun
+              digitale omgeving. Altijd vanuit één vraag: welk probleem lossen we
+              voor jou op?
+            </p>
+          </div>
+
+          <div>
+            <h3>Menu</h3>
+            <ul>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/oplossingen">Oplossingen</Link></li>
+              <li><Link to="/over-mij">Over Jos</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="mailto:info@voorjouwsucces.nl">info@voorjouwsucces.nl</a></li>
+              <li>Heel Nederland, op locatie of online</li>
+            </ul>
+          </div>
         </div>
       </div>
-      
+
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Voor Jouw Succes | AI & Organisatieontwikkeling | Alle rechten voorbehouden</p>
+        <p>&copy; {currentYear} Voor Jouw Succes • Jouw probleem eerst, de techniek volgt</p>
       </div>
     </footer>
   );
