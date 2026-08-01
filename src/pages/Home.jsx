@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Faq from '../components/Faq';
+import Voorbeelden from '../components/Voorbeelden';
 
 const problemChips = [
   { label: 'Systemen werken niet samen', to: '/oplossingen#koppelen' },
@@ -143,7 +144,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="section section--soft about-band">
+      <Voorbeelden />
+
+      <section className="section about-band">
         <div className="container">
           <div className="about-text">
             <span className="eyebrow">Wie je aan tafel krijgt</span>

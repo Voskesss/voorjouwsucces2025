@@ -11,6 +11,17 @@
 - Verouderde digitale omgeving: websites, klantportalen en interne tools moderniseren of nieuw bouwen, vindbaar voor zoekmachines én AI-assistenten.
 - Gebrek aan een klankbord: sparringpartner met twintig jaar ondernemerservaring voor digitale keuzes.
 
+## Voorbeelden van gebouwde oplossingen
+
+- Offerte via WhatsApp: een spraakbericht inspreken en AI maakt er direct een nette offerte van volgens het eigen template.
+- Kennissysteem via WhatsApp: medewerkers delen hun dag en ervaringen via WhatsApp; collega's stellen daar vragen en krijgen antwoord uit de verzamelde kennis.
+- Planningen die zichzelf bijwerken door koppelingen met omliggende systemen.
+- API-koppelingen tussen boekhouding, planning, CRM en andere pakketten.
+- Standaardwerkzaamheden geautomatiseerd via workflows (facturen, follow-ups, administratie).
+- Bestaande WordPress-websites verbeterd: sneller, veiliger en beter vindbaar.
+- Nieuwe websites gekoppeld aan GitHub en Claude, zodat de eigenaar de site kan bijhouden door het in gewone taal aan AI te vragen.
+- Kleine maatwerk-applicaties voor processen waar geen standaardpakket voor bestaat.
+
 ## Werkwijze
 
 1. Gratis kennismakingsgesprek: de klant vertelt wat er knelt.

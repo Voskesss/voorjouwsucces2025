@@ -42,7 +42,7 @@ const faqSchema = JSON.stringify({
 
 function Faq() {
   return (
-    <section className="section faq-section" id="faq">
+    <section className="section section--soft faq-section" id="faq">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqSchema }} />
       <div className="container">
         <div className="section-head">
