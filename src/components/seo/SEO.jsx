@@ -5,14 +5,14 @@ import { useLocation } from 'react-router-dom';
 const seoConfig = {
   // Startpagina
   '/': {
-    title: 'Voor Jouw Succes - AI in de praktijk, niet in een presentatie',
+    title: 'Voor Jouw Succes - Iets met AI, maar waar begin je?',
     description: 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot: AI-oplossingen, koppelingen, automatisering en websites. Jos helpt je op weg zodat je zelf verder kunt - of blijft je vaste partner.',
     keywords: 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, agents bouwen, automatisering, oplossingen bedenken',
     ogImage: '/images/logo-nieuw.png',
   },
   // Over mij pagina
   '/over-mij': {
-    title: 'Over Jos Klijnhout - AI in de praktijk | Voor Jouw Succes',
+    title: 'Over Jos Klijnhout - Oplossingen Bedenken is Mijn Ding | Voor Jouw Succes',
     description: 'Jos Klijnhout uit Oosterbeek: 20 jaar ondernemer (facilitaire organisatie van 14 naar 350 medewerkers), 30 jaar techniek, 5 jaar dagelijks AI met drie eigen platforms. Geen adviseur die een rapport achterlaat - hij bouwt het ook.',
     keywords: 'Jos Klijnhout, over jos, oplossingsdenker, sparringpartner ondernemers, voor jouw succes',
     ogImage: '/images/logo-nieuw.png',
