@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Faq from '../components/Faq';
 import Voorbeelden from '../components/Voorbeelden';
 import Icon from '../components/Icons';
+import Marquee from '../components/Marquee';
 
 const problemChips = [
   { label: 'Systemen werken niet samen', to: '/oplossingen#koppelen' },
@@ -97,6 +98,9 @@ function Home() {
               AI in de praktijk,<br />
               <span className="accent">niet in een presentatie.</span>
             </h1>
+            <svg className="scribble" viewBox="0 0 220 14" aria-hidden="true">
+              <path d="M4 10 Q 40 2 80 8 T 160 8 T 216 6" fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
+            </svg>
             <p className="hero-lede">
               Oplossingen bedenken is mijn ding, mensen helpen is mijn drive.
               Bijna elk bedrijf weet inmiddels dat er iets met AI moet – waar
@@ -117,6 +121,12 @@ function Home() {
           </div>
 
           <div className="hero-visual">
+            <svg className="doodle doodle-1" viewBox="0 0 120 60" aria-hidden="true">
+              <path d="M6 50 Q 60 4 114 34" fill="none" stroke="currentColor" strokeWidth="7" strokeLinecap="round" />
+            </svg>
+            <svg className="doodle doodle-2" viewBox="0 0 100 100" aria-hidden="true">
+              <path d="M12 82 Q 52 92 82 22" fill="none" stroke="currentColor" strokeWidth="7" strokeLinecap="round" />
+            </svg>
             <div className="photo-frame photo-frame--hero">
               <img
                 src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
@@ -183,7 +193,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="section section--soft">
+      <section className="section section--soft section-rollen">
         <div className="container">
           <div className="section-head">
             <span className="eyebrow">Zeven rollen</span>
@@ -247,6 +257,8 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <Marquee />
 
       <Voorbeelden />
 
