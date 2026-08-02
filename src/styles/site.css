@@ -27,7 +27,7 @@
   --shadow-lg: 0 24px 60px rgba(67, 13, 125, 0.16);
 
   /* Typografie */
-  --font: "Avenir Next", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font: "Plus Jakarta Sans", "Avenir Next", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
   --measure: 62ch;
 
   /* Layout */
@@ -728,6 +728,127 @@ a.problem-card {
 .cap-card p {
   color: var(--ink-soft);
   font-size: 0.97rem;
+}
+
+/* Narratief blok (Ik werk andersom) */
+.narrative {
+  max-width: 720px;
+  margin: 0 auto 3rem;
+}
+
+.narrative h2 {
+  margin: 0.6rem 0 1.2rem;
+}
+
+.narrative p {
+  color: var(--ink-soft);
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.narrative p strong {
+  color: var(--ink);
+}
+
+/* Uitkomsten (Tijd terug, Kennis ontsloten, ...) */
+.outcome-grid {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.outcome-card h3 {
+  margin-bottom: 0.3rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+}
+
+.outcome-card p {
+  color: var(--ink-soft);
+  font-size: 0.97rem;
+}
+
+/* Rollen-kaarten: ondertitel */
+.cap-sub {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--magenta) !important;
+  margin-bottom: 0.5rem;
+}
+
+.cap-card .icon-chip {
+  margin-bottom: 0.9rem;
+}
+
+/* Tech-stack kaarten */
+.tech-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.tech-card p {
+  color: var(--ink-soft);
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+/* Feiten (20 jr / 30 jr / 5 jr / +) */
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.fact-card {
+  padding: 1.3rem;
+}
+
+.fact-num {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.6rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.fact-card p {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+/* Vinkjeslijst (Wat ik zoek) */
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 1.7rem;
+  color: var(--ink-soft);
+}
+
+.check-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /* Voorbeelden uit de praktijk */
