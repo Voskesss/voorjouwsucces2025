@@ -7,12 +7,11 @@ function OverMij() {
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">Over Jos</span>
-          <h1>De AI-duizendpoot die jouw bedrijf mist</h1>
+          <h1>AI in de praktijk, niet in een presentatie</h1>
           <p>
-            Ik ben Jos Klijnhout. Oplossingen bedenken is mijn ding, mensen
-            helpen is mijn drive. Al mijn hele werkende leven ben ik de persoon
-            die gebeld wordt als er iets opgelost moet worden – en dat is
-            precies wat ik het liefste doe.
+            Ik ben Jos Klijnhout, uit Oosterbeek. Oplossingen bedenken is mijn
+            ding, mensen helpen is mijn drive – en al mijn hele werkende leven
+            ben ik de persoon die gebeld wordt als er iets opgelost moet worden.
           </p>
         </div>
       </section>
@@ -22,37 +21,41 @@ function OverMij() {
           <div className="prose">
             <h2>Waar ik vandaan kom</h2>
             <p>
-              Ruim twintig jaar was ik ondernemer in de facilitaire wereld, als
-              medeeigenaar van Infacilities en TFM. Daar leerde ik wat elke
-              ondernemer kent: personeel, klanten, processen – en aan het eind
-              van de maand moet het kloppen. En daar ontdekte ik ook mijn rol:
-              als er ergens een probleem lag, kwam het vanzelf op mijn bord.
-              Niet omdat het moest, maar omdat ik het niet kan láten om
-              oplossingen te bedenken.
+              Ruim twintig jaar was ik ondernemer: met twee compagnons bouwde ik
+              een landelijke facilitaire organisatie op van 14 naar 350
+              medewerkers, die we in 2018 verkochten. Daar leerde ik hoe een
+              bedrijf van binnenuit werkt – van strategie tot werkvloer, van
+              personeel tot de cijfers die aan het eind van de maand moeten
+              kloppen.
             </p>
             <p>
-              Daarna heb ik jarenlang bedrijven geholpen met hun websites en
-              digitale omgeving. Mooi werk, maar ik zag het veranderen: een
-              website alleen is niet meer genoeg. De afgelopen jaren heb ik me
-              daarom volledig gestort op wat er nú mogelijk is – AI, slimme
-              koppelingen tussen systemen, agents die werk uit handen nemen.
-              Niet als hype, maar als gereedschap.
+              Techniek is daarbij altijd de rode draad geweest. Vanaf de
+              begintijd van internet ben ik bezig met websites, SEO en
+              programmeren; in 2007 bouwde ik zelf een webbased urenregistratie
+              voor ons eigen bedrijf. En de afgelopen vijf jaar werk ik
+              dagelijks met AI. Drie eigen platforms staan live – The Last
+              Farewell, FacilityFinder en AiBackoffice – zelf bedacht, zelf
+              gebouwd, zelf uitgerold.
+            </p>
+            <p>
+              Daarnaast heb ik een coachopleiding afgerond. Omdat techniek pas
+              werkt als mensen meegaan.
             </p>
 
-            <h2>Hoe ik naar techniek kijk</h2>
+            <h2>Waarom het bij AI vaak misgaat</h2>
             <p>
-              Ik begin nooit bij techniek, altijd bij de vraag. Wat knelt er?
-              Wat kost tijd, geld of energie? Waar wil je naartoe? Pas als dat
-              helder is, komt het gereedschap op tafel – en dat kan van alles
-              zijn: een koppeling tussen je systemen, een agent die taken
-              overneemt, een dashboard dat eindelijk laat zien wat er in je
-              bedrijf gebeurt, of een digitale omgeving die weer van deze tijd is.
+              Bijna elk bedrijf weet inmiddels dat er iets met AI moet. Waar je
+              begint en wie het gaat bouwen, weet vrijwel niemand. Daar loopt
+              het meestal vast: een pilot, een chatbot, een rapport – en daarna
+              gebeurt er niets meer.
             </p>
             <p>
-              <strong>Het middel volgt uit jouw vraag, nooit andersom.</strong>{" "}
-              Daarom hoor je mij niet over technologieën die toevallig in de mode
-              zijn. Als een simpele aanpassing je probleem oplost, adviseer ik
-              een simpele aanpassing.
+              Ik werk andersom. Eerst het werk zelf: waar loopt het vast, wat
+              kost onnodig tijd, waar zit de irritatie. Daarna pas de techniek.
+              <strong> En dan bouw ik het.</strong> Ik ben geen adviseur die een
+              rapport achterlaat en geen developer die alleen code oplevert. Ik
+              zit ertussenin – en dat is precies waar het misgaat bij de meeste
+              organisaties.
             </p>
 
             <h2>Op weg geholpen – of partner voor de lange termijn</h2>
@@ -71,34 +74,26 @@ function OverMij() {
               niet ik.
             </p>
 
-            <h2>Voor wie ik werk</h2>
+            <h2>Even zonder cv</h2>
             <p>
-              Voor bedrijven, klein en groot. Van de zzp'er die verzuipt in
-              administratie tot de MKB-organisatie waar systemen niet met elkaar
-              praten. Wat mijn klanten gemeen hebben: ze willen vooruit in hun
-              digitale omgeving, maar zitten niet te wachten op een technisch
-              verhaal. Die vertaling – van jouw vraag naar een werkende
-              oplossing – is precies mijn vak.
+              Ik woon in Oosterbeek met mijn vrouw en twee kinderen van 16 en
+              14. Ik ben nieuwsgierig, direct en niet te beroerd om zelf de
+              mouwen op te stropen. Als ik ergens in duik, laat ik het niet los
+              tot het werkt.
             </p>
 
-            <h2>Waar ik voor sta</h2>
+            <h2>Wat ik zoek</h2>
             <p>
-              <strong>Mensen eerst.</strong> Techniek is gereedschap; het gaat om
-              jou, je team en je klanten.
+              Naast losse opdrachten sta ik open voor een vaste samenwerking met
+              een organisatie die wil bouwen, niet alleen onderzoeken:
             </p>
-            <p>
-              <strong>Eerlijk advies.</strong> Als iets niet slim of niet nodig
-              is, zeg ik dat gewoon – ook als me dat een opdracht kost.
-            </p>
-            <p>
-              <strong>Behapbare stappen.</strong> Klein beginnen, snel resultaat,
-              en in jouw tempo verder bouwen. Geen dikke rapporten, geen
-              trajecten van een half jaar.
-            </p>
-            <p>
-              <strong>Gewone taal.</strong> Je hoeft niets van techniek te weten
-              om met mij te kunnen werken. Dat is mijn werk, niet het jouwe.
-            </p>
+            <ul className="check-list">
+              <li>24 tot 32 uur per week</li>
+              <li>Loondienst of freelance, beide bespreekbaar</li>
+              <li>Regio Arnhem, Nijmegen, Ede en omgeving</li>
+              <li>Een organisatie die wil bouwen, niet alleen onderzoeken</li>
+              <li>Ruimte en vertrouwen, in ruil voor betrokkenheid en resultaat</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -107,9 +102,10 @@ function OverMij() {
         <div className="container">
           <h2>De koffie staat klaar</h2>
           <p>
-            Loop je ergens tegenaan, of voel je gewoon dat je bedrijf digitaal
-            een slag moet maken? Vertel me je verhaal. Ik luister, denk mee en
-            je krijgt altijd minstens één idee waar je meteen wat aan hebt.
+            Loop je ergens tegenaan, zie je kansen met AI, of zoek je iemand
+            die het ook echt komt bouwen? Vertel me je verhaal. Ik luister,
+            denk mee en je krijgt altijd minstens één idee waar je meteen wat
+            aan hebt.
           </p>
           <Link to="/contact" className="btn btn-light">Plan een gratis kennismaking</Link>
         </div>

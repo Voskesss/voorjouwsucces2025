@@ -22,6 +22,18 @@
 - Nieuwe websites gekoppeld aan GitHub en Claude, zodat de eigenaar de site kan bijhouden door het in gewone taal aan AI te vragen (de eigen website van Voor Jouw Succes werkt zo).
 - Kleine maatwerk-applicaties voor processen waar geen standaardpakket voor bestaat.
 
+## Zeven rollen
+
+Jos vervult zeven rollen, meestal in combinatie: sparringpartner, innovator, AI engineer, toolbouwer, bruggenbouwer (API-koppelingen én de brug tussen mensen en software), workflowbouwer en agentbouwer.
+
+## Achtergrond van Jos Klijnhout
+
+- 20 jaar ondernemer: met twee compagnons een landelijke facilitaire organisatie opgebouwd van 14 naar 350 medewerkers, in 2018 verkocht.
+- 30 jaar techniek: vanaf de begintijd van internet bezig met websites, SEO en programmeren; in 2007 zelf een webbased urenregistratie gebouwd.
+- 5 jaar dagelijks AI: drie eigen platforms live (The Last Farewell, FacilityFinder, AiBackoffice) - zelf bedacht, gebouwd en uitgerold.
+- Coachopleiding, omdat techniek pas werkt als mensen meegaan.
+- Beschikbaar voor vaste samenwerking: 24-32 uur per week, loondienst of freelance, regio Arnhem/Nijmegen/Ede.
+
 ## Werkwijze
 
 1. Gratis kennismakingsgesprek: de klant vertelt wat er knelt.
@@ -35,9 +47,10 @@ Bedrijven in heel Nederland, van zzp tot groter MKB. Op locatie of online.
 
 ## Contact
 
-- E-mail: info@voorjouwsucces.nl
+- E-mail: josklijnhout@hotmail.com
 - Website: https://voskesss.github.io/voorjouwsucces2025/
-- Eigenaar: Jos Klijnhout (https://www.linkedin.com/in/josklijnhout/)
+- Eigenaar: Jos Klijnhout, Oosterbeek (https://www.linkedin.com/in/josklijnhout/)
+- Technische werkplaats: https://aibackoffice.nl
 
 ## Pagina's
 

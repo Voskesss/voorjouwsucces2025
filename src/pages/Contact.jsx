@@ -20,7 +20,7 @@ function Contact() {
             <div className="card">
               <div className="info-item">
                 <h3>E-mail</h3>
-                <p><a href="mailto:info@voorjouwsucces.nl">info@voorjouwsucces.nl</a></p>
+                <p><a href="mailto:josklijnhout@hotmail.com">josklijnhout@hotmail.com</a></p>
                 <p className="note">Ik reageer binnen twee werkdagen</p>
               </div>
               <div className="info-item">
@@ -28,6 +28,14 @@ function Contact() {
                 <p>
                   Bij jou op locatie of online – wat jij prettig vindt.
                   Ik werk voor bedrijven in heel Nederland.
+                </p>
+              </div>
+              <div className="info-item">
+                <h3>Online</h3>
+                <p>
+                  <a href="https://aibackoffice.nl" target="_blank" rel="noreferrer">aibackoffice.nl</a>
+                  {' · '}
+                  <a href="https://linkedin.com/in/josklijnhout" target="_blank" rel="noreferrer">linkedin.com/in/josklijnhout</a>
                 </p>
               </div>
               <div className="info-item">
@@ -53,7 +61,7 @@ function Contact() {
                 bedrijf naartoe?
               </p>
               <a
-                href="mailto:info@voorjouwsucces.nl?subject=Mijn%20vraagstuk%20voor%20Voor%20Jouw%20Succes"
+                href="mailto:josklijnhout@hotmail.com?subject=Mijn%20vraagstuk%20voor%20Voor%20Jouw%20Succes"
                 className="btn btn-primary"
               >
                 Mail je vraagstuk

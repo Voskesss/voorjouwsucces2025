@@ -80,6 +80,15 @@ const paths = {
       <polyline points="16 7 22 7 22 13" />
     </>
   ),
+  bot: (
+    <>
+      <rect x="4" y="8" width="16" height="12" rx="2" />
+      <path d="M12 4v4" />
+      <circle cx="12" cy="3" r="1" />
+      <line x1="9" y1="13" x2="9" y2="15" />
+      <line x1="15" y1="13" x2="15" y2="15" />
+    </>
+  ),
   user: (
     <>
       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />

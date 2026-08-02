@@ -25,10 +25,10 @@ export const getLocalBusinessSchema = () => ({
   'description': SITE_DESCRIPTION,
   'image': `${SITE_URL}/images/logo-nieuw.png`,
   'url': SITE_URL,
-  'email': 'info@voorjouwsucces.nl',
+  'email': 'josklijnhout@hotmail.com',
   'address': {
     '@type': 'PostalAddress',
-    'addressLocality': 'Nederland',
+    'addressLocality': 'Oosterbeek',
     'addressCountry': 'NL'
   },
   'serviceType': [

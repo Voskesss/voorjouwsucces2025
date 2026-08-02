@@ -33,7 +33,9 @@ function Footer() {
           <div>
             <h3>Contact</h3>
             <ul>
-              <li><a href="mailto:info@voorjouwsucces.nl">info@voorjouwsucces.nl</a></li>
+              <li><a href="mailto:josklijnhout@hotmail.com">josklijnhout@hotmail.com</a></li>
+              <li><a href="https://linkedin.com/in/josklijnhout" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://aibackoffice.nl" target="_blank" rel="noreferrer">aibackoffice.nl</a></li>
               <li>Heel Nederland, op locatie of online</li>
             </ul>
           </div>
