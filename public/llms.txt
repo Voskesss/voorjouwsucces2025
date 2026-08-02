@@ -11,7 +11,7 @@
 - Verouderde digitale omgeving: websites, klantportalen en interne tools moderniseren of nieuw bouwen, vindbaar voor zoekmachines én AI-assistenten.
 - Gebrek aan een klankbord: sparringpartner met twintig jaar ondernemerservaring voor digitale keuzes.
 
-## Voorbeelden van gebouwde oplossingen
+## Voorbeelden van wat Voor Jouw Succes bouwt (deels gerealiseerd, deels concepten op maat)
 
 - Offerte via WhatsApp: een spraakbericht inspreken en AI maakt er direct een nette offerte van volgens het eigen template.
 - Kennissysteem via WhatsApp: medewerkers delen hun dag en ervaringen via WhatsApp; collega's stellen daar vragen en krijgen antwoord uit de verzamelde kennis.
@@ -19,7 +19,7 @@
 - API-koppelingen tussen boekhouding, planning, CRM en andere pakketten.
 - Standaardwerkzaamheden geautomatiseerd via workflows (facturen, follow-ups, administratie).
 - Bestaande WordPress-websites verbeterd: sneller, veiliger en beter vindbaar.
-- Nieuwe websites gekoppeld aan GitHub en Claude, zodat de eigenaar de site kan bijhouden door het in gewone taal aan AI te vragen.
+- Nieuwe websites gekoppeld aan GitHub en Claude, zodat de eigenaar de site kan bijhouden door het in gewone taal aan AI te vragen (de eigen website van Voor Jouw Succes werkt zo).
 - Kleine maatwerk-applicaties voor processen waar geen standaardpakket voor bestaat.
 
 ## Werkwijze

@@ -1,7 +1,8 @@
 import React from 'react';
 import Icon from './Icons';
 
-// Echte, gebouwde oplossingen. Eén lijst, gebruikt op meerdere pagina's.
+// Voorbeelden om te prikkelen: deels gebouwd, deels ideeën die klaarliggen.
+// Bewust geen klant-claims: het gaat erom te laten zien wat er kan.
 const voorbeelden = [
   {
     icon: 'mic',
@@ -45,7 +46,7 @@ const voorbeelden = [
     icon: 'sparkles',
     tag: 'Website + AI',
     title: 'Website die je bijhoudt via AI',
-    text: 'Nieuwe website gekoppeld aan GitHub en Claude: teksten aanpassen of een pagina toevoegen doe je door het gewoon aan de AI te vragen. Geen webbouwer meer nodig voor elke wijziging. Deze site werkt precies zo.',
+    text: 'Nieuwe website gekoppeld aan GitHub en Claude: teksten aanpassen of een pagina toevoegen doe je door het gewoon aan de AI te vragen. Geen webbouwer meer nodig voor elke wijziging. Deze site werkt precies zo – dat kan ik dus bewijzen.',
   },
   {
     icon: 'grid',
@@ -60,11 +61,12 @@ function Voorbeelden() {
     <section className="section section--soft" id="voorbeelden">
       <div className="container">
         <div className="section-head">
-          <span className="eyebrow">Uit de praktijk</span>
-          <h2>Echt gemaakt, echt in gebruik</h2>
+          <span className="eyebrow">Kijk eens wat er kan</span>
+          <h2>Dit kan er tegenwoordig gewoon</h2>
           <p>
-            Geen mooie beloftes maar dingen die al draaien bij bedrijven.
-            Een greep uit wat ik gebouwd heb.
+            Een greep uit wat ik bouw – deels al gemaakt, deels ideeën die
+            klaarliggen om voor jóu op maat gebouwd te worden. Zit er iets bij
+            waarvan je denkt "dat wil ik ook"? Dan praten we verder.
           </p>
         </div>
 
