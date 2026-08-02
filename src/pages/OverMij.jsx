@@ -7,11 +7,11 @@ function OverMij() {
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">Over Jos</span>
-          <h1>AI in de praktijk, niet in een presentatie</h1>
+          <h1>Oplossingen bedenken is mijn ding, mensen helpen is mijn drive</h1>
           <p>
-            Ik ben Jos Klijnhout, uit Oosterbeek. Oplossingen bedenken is mijn
-            ding, mensen helpen is mijn drive – en al mijn hele werkende leven
-            ben ik de persoon die gebeld wordt als er iets opgelost moet worden.
+            Ik ben Jos Klijnhout, uit Oosterbeek. Al mijn hele werkende leven
+            ben ik de persoon die gebeld wordt als er iets opgelost moet worden
+            – en dat is precies wat ik het liefste doe.
           </p>
         </div>
       </section>
