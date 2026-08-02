@@ -1330,3 +1330,207 @@ a.problem-card {
     gap: 2rem;
   }
 }
+
+/* ==========================================================================
+   Eigen gezicht v2 — posterlook
+   Grote kleurblokken, dikke koppen (Anton), papiertextuur, harde schaduwen
+   en elementen die doorlopen van blok naar blok. Overrides op de basis.
+   ========================================================================== */
+
+:root {
+  --paper: #f7f4ee;
+  --ink-deep: #241b38;
+  --accent-light: #ff5ec4;
+  --block: linear-gradient(150deg, #2c0a52 0%, #430d7d 55%, #7a1587 100%);
+}
+
+body {
+  background-color: var(--paper);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cg fill='%23241b38' fill-opacity='0.05'%3E%3Ccircle cx='23' cy='31' r='1.4'/%3E%3Ccircle cx='81' cy='9' r='1'/%3E%3Ccircle cx='150' cy='47' r='1.2'/%3E%3Ccircle cx='215' cy='22' r='0.9'/%3E%3Ccircle cx='45' cy='104' r='1'/%3E%3Ccircle cx='121' cy='129' r='1.5'/%3E%3Ccircle cx='196' cy='101' r='1'/%3E%3Ccircle cx='247' cy='140' r='1.2'/%3E%3Ccircle cx='18' cy='182' r='1.1'/%3E%3Ccircle cx='90' cy='205' r='1.3'/%3E%3Ccircle cx='162' cy='186' r='0.9'/%3E%3Ccircle cx='231' cy='224' r='1.4'/%3E%3Ccircle cx='60' cy='247' r='1'/%3E%3Ccircle cx='140' cy='250' r='1.1'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1, h2 {
+  font-family: 'Anton', var(--font);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  line-height: 1.06;
+}
+
+h1 { font-size: clamp(2.7rem, 6vw, 4.4rem); }
+h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-size: 0.92rem;
+}
+
+.card {
+  border: 2px solid var(--ink-deep);
+  border-radius: 14px;
+  box-shadow: 8px 8px 0 rgba(67, 13, 125, 0.14);
+}
+
+.card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 12px 12px 0 rgba(214, 12, 123, 0.18);
+}
+
+.step {
+  border: 2px solid var(--ink-deep);
+  box-shadow: 8px 8px 0 rgba(67, 13, 125, 0.14);
+}
+
+.faq-item {
+  border: 2px solid var(--ink-deep);
+  box-shadow: 6px 6px 0 rgba(67, 13, 125, 0.12);
+}
+
+.section--soft {
+  background: rgba(67, 13, 125, 0.055);
+}
+
+/* Hero en subpagina-koppen als groot kleurblok */
+.hero {
+  background: var(--block);
+  color: #fff;
+  overflow: visible;
+  padding-bottom: 120px;
+}
+
+.hero .eyebrow,
+.page-hero .eyebrow {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+.hero h1 .accent {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  -webkit-text-fill-color: currentColor;
+  color: var(--accent-light);
+}
+
+.hero-lede { color: rgba(255, 255, 255, 0.88); }
+
+.hero .btn-ghost {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.55);
+  color: #fff;
+}
+
+.hero .btn-ghost:hover { border-color: #fff; }
+
+.hero .chip {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.hero .chip:hover {
+  background: #fff;
+  color: var(--purple);
+  border-color: #fff;
+}
+
+.hero .photo-frame {
+  box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.28);
+}
+
+.hero .float-chat {
+  border: 2px solid var(--ink-deep);
+  bottom: -4.5rem;
+}
+
+.page-hero {
+  background: var(--block);
+  color: #fff;
+  border-bottom: none;
+}
+
+.page-hero h1 { color: #fff; }
+.page-hero p { color: rgba(255, 255, 255, 0.85); }
+
+/* Handgetekende accenten */
+.scribble {
+  display: block;
+  width: min(260px, 62%);
+  color: var(--accent-light);
+  margin-top: 0.4rem;
+}
+
+.doodle {
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.doodle-1 { top: -26px; right: -16px; width: 110px; transform: rotate(10deg); }
+.doodle-2 { bottom: 24%; left: -36px; width: 84px; transform: rotate(-14deg); }
+
+/* Doorlopende tekstband */
+.marquee {
+  overflow: hidden;
+  background: var(--gradient);
+  color: #fff;
+  padding: 0.9rem 0;
+  border-top: 2px solid var(--ink-deep);
+  border-bottom: 2px solid var(--ink-deep);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-group {
+  display: flex;
+  gap: 0;
+  white-space: nowrap;
+  font-family: 'Anton', var(--font);
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+.marquee-group span { padding-right: 0.6rem; }
+.marquee-group em { font-style: normal; opacity: 0.6; padding-left: 0.6rem; }
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+/* Blokken die in elkaar doorlopen */
+.outcome-grid {
+  position: relative;
+  z-index: 2;
+  transform: translateY(80px);
+  margin-top: -20px;
+}
+
+.section-rollen { padding-top: 180px; }
+
+.outcome-card { background: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+}
+
+@media (max-width: 640px) {
+  .hero { padding-bottom: 64px; }
+  .hero .float-chat { bottom: auto; }
+  .doodle { display: none; }
+  .outcome-grid { transform: translateY(40px); }
+  .section-rollen { padding-top: 120px; }
+}
