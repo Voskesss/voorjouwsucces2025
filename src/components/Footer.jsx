@@ -14,9 +14,9 @@ function Footer() {
               <img src={logo} alt="Voor Jouw Succes" className="footer-logo" />
             </Link>
             <p>
-              Voor Jouw Succes helpt bedrijven – klein en groot – vooruit in hun
-              digitale omgeving. Altijd vanuit één vraag: welk probleem lossen we
-              voor jou op?
+              Ik ben Jos Klijnhout en ik help bedrijven – klein en groot – vooruit
+              in hun digitale omgeving. Altijd vanuit één vraag: welk probleem
+              lossen we voor jou op?
             </p>
           </div>
 
@@ -43,7 +43,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Voor Jouw Succes • Jouw probleem eerst, de techniek volgt</p>
+        <p>&copy; {currentYear} Jos Klijnhout • Jouw probleem eerst, de techniek volgt</p>
       </div>
     </footer>
   );

@@ -1,6 +1,6 @@
-# Voor Jouw Succes Website
+# Website van Jos Klijnhout (Voor Jouw Succes)
 
-Website van **Voor Jouw Succes**: digitale oplossingen voor bedrijven, klein en groot. Altijd vanuit het vraagstuk van de klant – de techniek volgt. Gebouwd met React en Vite.
+Persoonlijke website van **Jos Klijnhout**: digitale oplossingen voor bedrijven, klein en groot, geschreven vanuit Jos zelf. Altijd vanuit het vraagstuk van de klant – de techniek volgt. Gebouwd met React en Vite.
 
 ## Positionering
 

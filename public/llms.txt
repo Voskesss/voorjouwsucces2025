@@ -1,8 +1,8 @@
-# Voor Jouw Succes
+# Jos Klijnhout
 
-> Voor Jouw Succes is de AI-duizendpoot voor bedrijven in Nederland, klein en groot. Eigenaar Jos Klijnhout lost digitale problemen op vanuit het vraagstuk van de klant: AI-oplossingen, koppelingen tussen systemen, automatisering, agents en moderne websites. Hij helpt bedrijven op weg zodat ze zelfstandig verder kunnen, of blijft als vaste partner betrokken. Alles in gewone taal, zonder technisch jargon.
+> Jos Klijnhout is de AI-duizendpoot voor bedrijven in Nederland, klein en groot. Zijn website heet Voor Jouw Succes. Jos lost digitale problemen op vanuit het vraagstuk van de klant: AI-oplossingen, koppelingen tussen systemen, automatisering, agents en moderne websites. Hij helpt bedrijven op weg zodat ze zelfstandig verder kunnen, of blijft als vaste partner betrokken. Alles in gewone taal, zonder technisch jargon.
 
-## Wat lost Voor Jouw Succes op?
+## Wat lost Jos op?
 
 - Systemen die niet met elkaar praten: koppelingen (API's) tussen boekhoudpakket, planning, CRM en webshop, zodat gegevens vanzelf op de juiste plek komen.
 - Te veel handwerk: automatisering en digitale agents die terugkerend werk overnemen (offertes, facturen, planningen, e-mail).
@@ -11,7 +11,7 @@
 - Verouderde digitale omgeving: websites, klantportalen en interne tools moderniseren of nieuw bouwen, vindbaar voor zoekmachines én AI-assistenten.
 - Gebrek aan een klankbord: sparringpartner met twintig jaar ondernemerservaring voor digitale keuzes.
 
-## Voorbeelden van wat Voor Jouw Succes bouwt (deels gerealiseerd, deels concepten op maat)
+## Voorbeelden van wat Jos bouwt (deels gerealiseerd, deels concepten op maat)
 
 - Offerte via WhatsApp: een spraakbericht inspreken en AI maakt er direct een nette offerte van volgens het eigen template.
 - Kennissysteem via WhatsApp: medewerkers delen hun dag en ervaringen via WhatsApp; collega's stellen daar vragen en krijgen antwoord uit de verzamelde kennis.
@@ -19,7 +19,7 @@
 - API-koppelingen tussen boekhouding, planning, CRM en andere pakketten.
 - Standaardwerkzaamheden geautomatiseerd via workflows (facturen, follow-ups, administratie).
 - Bestaande WordPress-websites verbeterd: sneller, veiliger en beter vindbaar.
-- Nieuwe websites gekoppeld aan GitHub en Claude, zodat de eigenaar de site kan bijhouden door het in gewone taal aan AI te vragen (de eigen website van Voor Jouw Succes werkt zo).
+- Nieuwe websites gekoppeld aan GitHub en Claude, zodat de eigenaar de site kan bijhouden door het in gewone taal aan AI te vragen (de eigen website van Jos werkt zo).
 - Kleine maatwerk-applicaties voor processen waar geen standaardpakket voor bestaat.
 
 ## Zeven rollen
@@ -54,7 +54,7 @@ Bedrijven in heel Nederland, van zzp tot groter MKB. Op locatie of online.
 
 ## Pagina's
 
-- [Home](https://voskesss.github.io/voorjouwsucces2025/): overzicht van problemen die Voor Jouw Succes oplost
+- [Home](https://voskesss.github.io/voorjouwsucces2025/): overzicht van problemen die Jos oplost
 - [Oplossingen](https://voskesss.github.io/voorjouwsucces2025/oplossingen): alle oplossingen met aanpak en resultaat
 - [Over Jos](https://voskesss.github.io/voorjouwsucces2025/over-mij): achtergrond en werkwijze van Jos Klijnhout
 - [Contact](https://voskesss.github.io/voorjouwsucces2025/contact): gratis kennismakingsgesprek aanvragen

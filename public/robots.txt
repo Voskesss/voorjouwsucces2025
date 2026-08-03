@@ -1,4 +1,4 @@
-# robots.txt voor Voor Jouw Succes
+# robots.txt voor de website van Jos Klijnhout
 # Alle bezoekers welkom, ook AI-assistenten.
 
 User-agent: *

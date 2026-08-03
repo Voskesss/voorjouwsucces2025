@@ -5,39 +5,39 @@ import { useLocation } from 'react-router-dom';
 const seoConfig = {
   // Startpagina
   '/': {
-    title: 'Voor Jouw Succes - Iets met AI, maar waar begin je?',
-    description: 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot: AI-oplossingen, koppelingen, automatisering en websites. Jos helpt je op weg zodat je zelf verder kunt - of blijft je vaste partner.',
-    keywords: 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, agents bouwen, automatisering, oplossingen bedenken',
+    title: 'Jos Klijnhout - Iets met AI, maar waar begin je?',
+    description: 'Ik ben Jos Klijnhout: ik bedenk en bouw AI-oplossingen, koppelingen, automatisering en websites voor bedrijven, klein en groot. Ik help je op weg zodat je zelf verder kunt - of blijf je vaste partner.',
+    keywords: 'jos klijnhout, digitale oplossingen MKB, AI oplossingen, systemen koppelen, agents bouwen, automatisering, oplossingen bedenken',
     ogImage: '/images/logo-nieuw.png',
   },
   // Over mij pagina
   '/over-mij': {
-    title: 'Over Jos Klijnhout - Oplossingen Bedenken is Mijn Ding | Voor Jouw Succes',
+    title: 'Over Mij - Oplossingen Bedenken is Mijn Ding | Jos Klijnhout',
     description: 'Jos Klijnhout uit Oosterbeek: 20 jaar ondernemer (facilitaire organisatie van 14 naar 350 medewerkers), 30 jaar techniek, 5 jaar dagelijks AI met drie eigen platforms. Geen adviseur die een rapport achterlaat - hij bouwt het ook.',
-    keywords: 'Jos Klijnhout, over jos, oplossingsdenker, sparringpartner ondernemers, voor jouw succes',
+    keywords: 'Jos Klijnhout, over jos, oplossingsdenker, sparringpartner ondernemers, AI duizendpoot',
     ogImage: '/images/logo-nieuw.png',
   },
   // Oplossingen pagina
   '/oplossingen': {
-    title: 'Oplossingen - Begin bij het Probleem, Niet bij de Techniek | Voor Jouw Succes',
+    title: 'Oplossingen - Begin bij het Probleem, Niet bij de Techniek | Jos Klijnhout',
     description: 'Digitale oplossingen vanuit jouw vraagstuk: systemen die met elkaar praten, agents die werk uit handen nemen, inzicht uit je eigen data en AI die bij jouw bedrijf past.',
-    keywords: 'oplossingen MKB, systemen koppelen, API koppelingen, agents bouwen, systemen uitlezen, AI implementatie, voor jouw succes',
+    keywords: 'oplossingen MKB, systemen koppelen, API koppelingen, agents bouwen, systemen uitlezen, AI implementatie, jos klijnhout',
     ogImage: '/images/logo-nieuw.png',
   },
   // Contact pagina
   '/contact': {
-    title: 'Contact - Vertel Me Je Verhaal | Voor Jouw Succes',
+    title: 'Contact - Vertel Me Je Verhaal | Jos Klijnhout',
     description: 'Vertel Jos waar je tegenaan loopt. Een kennismakingsgesprek is gratis en vrijblijvend, en je krijgt altijd minstens één idee waar je meteen wat aan hebt.',
-    keywords: 'contact, kennismaking, gratis gesprek, voor jouw succes, jos klijnhout',
+    keywords: 'contact, kennismaking, gratis gesprek, jos klijnhout',
     ogImage: '/images/logo-nieuw.png',
   },
 };
 
 // Standaard SEO-configuratie als fallback
 const defaultSeo = {
-  title: 'Voor Jouw Succes - De AI-duizendpoot die jouw bedrijf mist',
-  description: 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot. Digitale problemen opgelost in gewone taal, zonder technisch verhaal.',
-  keywords: 'voor jouw succes, AI duizendpoot, digitale oplossingen MKB, oplossingen bedenken, automatisering',
+  title: 'Jos Klijnhout - De AI-duizendpoot die jouw bedrijf mist',
+  description: 'Ik ben Jos Klijnhout, de AI-duizendpoot voor bedrijven, klein en groot. Digitale problemen opgelost in gewone taal, zonder technisch verhaal.',
+  keywords: 'jos klijnhout, AI duizendpoot, digitale oplossingen MKB, oplossingen bedenken, automatisering',
   ogImage: '/images/logo-nieuw.png',
   siteUrl: 'https://voskesss.github.io/voorjouwsucces2025',
 };
