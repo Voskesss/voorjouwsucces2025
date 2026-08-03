@@ -4,6 +4,7 @@ import Faq from '../components/Faq';
 import Voorbeelden from '../components/Voorbeelden';
 import Icon from '../components/Icons';
 import Marquee from '../components/Marquee';
+import FloatShapes from '../components/FloatShapes';
 
 const problemChips = [
   { label: 'Systemen werken niet samen', to: '/oplossingen#koppelen' },
@@ -91,6 +92,10 @@ function Home() {
     <div className="home-page">
 
       <section className="hero">
+        <FloatShapes variant="light" />
+        <svg className="hero-wavecut" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0,60 C240,8 480,4 720,30 C960,56 1200,52 1440,12 L1440,60 Z" fill="#f7f4ee" />
+        </svg>
         <div className="container">
           <div className="hero-text">
             <span className="eyebrow">Jos Klijnhout · Oosterbeek</span>
@@ -318,6 +323,7 @@ function Home() {
       <Faq />
 
       <section className="cta-band">
+        <FloatShapes variant="light" />
         <div className="container">
           <h2>Waar loop jij tegenaan?</h2>
           <p>

@@ -12,6 +12,38 @@ import Oplossingen from './pages/Oplossingen'
 import Contact from './pages/Contact'
 
 
+// Laat kaarten en tekstblokken speels binnenkomen tijdens het scrollen.
+// De klassen worden pas via JS toegevoegd, zodat de inhoud zonder JS
+// (en voor crawlers) altijd gewoon zichtbaar is.
+function ScrollReveal() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const els = document.querySelectorAll(
+      '.card, .step, .faq-item, .section-head, .narrative > *, .prose > *, .value-list li'
+    );
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+    els.forEach((el, i) => {
+      el.classList.add('reveal');
+      el.style.transitionDelay = `${(i % 5) * 70}ms`;
+      observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, [pathname]);
+
+  return null;
+}
+
 // Scrolt bij navigatie naar boven, of naar het anker als er een #id in de URL staat
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -50,6 +82,7 @@ function App() {
     <Router basename={basename}>
       <div className="app">
         <ScrollManager />
+        <ScrollReveal />
         <Header />
         <main className="main-content">
           <SEO />
