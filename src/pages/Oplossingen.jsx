@@ -8,8 +8,8 @@ const Oplossingen = () => {
   return (
     <>
       <SEO
-        title="Oplossingen - Voor Jouw Succes"
-        description="Dit lost Voor Jouw Succes op: systemen die niet samenwerken, te veel handwerk, geen overzicht, vragen over AI, een verouderde website en het gemis van een sparringpartner."
+        title="Oplossingen - Jos Klijnhout"
+        description="Dit los ik op: systemen die niet samenwerken, te veel handwerk, geen overzicht, vragen over AI, een verouderde website en het gemis van een sparringpartner. Ik bedenk het en bouw het ook."
         keywords="digitale oplossingen MKB, systemen koppelen, automatisering, AI advies, dashboards, website vernieuwen, sparringpartner ondernemers"
       />
 

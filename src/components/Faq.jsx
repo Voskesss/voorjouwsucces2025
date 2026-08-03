@@ -5,7 +5,7 @@ import React from 'react';
 // zo altijd gelijk.
 const faqItems = [
   {
-    q: 'Wat doet Voor Jouw Succes precies?',
+    q: 'Wat doe je precies, Jos?',
     a: 'Zie mij als de AI-duizendpoot die jouw bedrijf mist. Systemen die niet samenwerken, te veel handwerk, geen overzicht, een verouderde website of vragen over AI: jij vertelt wat er knelt, ik bedenk en bouw de oplossing. In gewone taal, zonder technisch verhaal.',
   },
   {

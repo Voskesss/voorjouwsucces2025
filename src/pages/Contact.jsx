@@ -61,7 +61,7 @@ function Contact() {
                 bedrijf naartoe?
               </p>
               <a
-                href="mailto:josklijnhout@hotmail.com?subject=Mijn%20vraagstuk%20voor%20Voor%20Jouw%20Succes"
+                href="mailto:josklijnhout@hotmail.com?subject=Mijn%20vraagstuk%20voor%20Jos"
                 className="btn btn-primary"
               >
                 Mail je vraagstuk

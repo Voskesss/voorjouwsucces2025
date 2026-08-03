@@ -1,12 +1,12 @@
 /**
- * SEO-configuratie voor de Voor Jouw Succes website
+ * SEO-configuratie voor de website van Jos Klijnhout
  */
 
 // Basis website informatie
-export const SITE_NAME = 'Voor Jouw Succes';
+export const SITE_NAME = 'Jos Klijnhout';
 export const SITE_URL = 'https://voskesss.github.io/voorjouwsucces2025';
-export const SITE_DESCRIPTION = 'Voor Jouw Succes is de AI-duizendpoot voor bedrijven, klein en groot: AI-oplossingen, koppelingen, automatisering en websites. Jos Klijnhout helpt je op weg zodat je zelf verder kunt - of blijft je vaste partner.';
-export const SITE_KEYWORDS = 'voor jouw succes, digitale oplossingen MKB, AI oplossingen, systemen koppelen, API koppelingen, systemen uitlezen, agents bouwen, automatisering, sparringpartner ondernemers';
+export const SITE_DESCRIPTION = 'Ik ben Jos Klijnhout, de AI-duizendpoot voor bedrijven, klein en groot. Ik bedenk en bouw AI-oplossingen, koppelingen, automatisering en websites - en help je op weg zodat je zelf verder kunt, of blijf je vaste partner.';
+export const SITE_KEYWORDS = 'jos klijnhout, digitale oplossingen MKB, AI oplossingen, systemen koppelen, API koppelingen, systemen uitlezen, agents bouwen, automatisering, sparringpartner ondernemers';
 export const SITE_AUTHOR = 'Jos Klijnhout';
 export const SITE_LANGUAGE = 'nl';
 
